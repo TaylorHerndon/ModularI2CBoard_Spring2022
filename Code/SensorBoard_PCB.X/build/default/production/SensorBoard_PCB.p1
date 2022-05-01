@@ -1,0 +1,3277 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2140 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc/pic18f26k40.h
+[v _PPSLOCK `Vuc ~T0 @X0 0 e@3744 ]
+"2146
+[s S136 :1 `uc 1 ]
+[n S136 . PPSLOCKED ]
+"2145
+[u S135 `S136 1 ]
+[n S135 . . ]
+"2150
+[v _PPSLOCKbits `VS135 ~T0 @X0 0 e@3744 ]
+"7253
+[v _RC0PPS `Vuc ~T0 @X0 0 e@3831 ]
+"7297
+[v _RC1PPS `Vuc ~T0 @X0 0 e@3832 ]
+"3858
+[v _SSP1DATPPS `Vuc ~T0 @X0 0 e@3768 ]
+"3792
+[v _SSP1CLKPPS `Vuc ~T0 @X0 0 e@3767 ]
+"7341
+[v _RC2PPS `Vuc ~T0 @X0 0 e@3833 ]
+"7385
+[v _RC3PPS `Vuc ~T0 @X0 0 e@3834 ]
+"187
+[v _SSP2DATPPS `Vuc ~T0 @X0 0 e@3728 ]
+"153
+[v _SSP2CLKPPS `Vuc ~T0 @X0 0 e@3727 ]
+"15464
+[v _LATA `Vuc ~T0 @X0 0 e@3971 ]
+"15576
+[v _LATB `Vuc ~T0 @X0 0 e@3972 ]
+"15688
+[v _LATC `Vuc ~T0 @X0 0 e@3973 ]
+"8039
+[v _ANSELA `Vuc ~T0 @X0 0 e@3857 ]
+"8535
+[v _ANSELB `Vuc ~T0 @X0 0 e@3865 ]
+"9031
+[v _ANSELC `Vuc ~T0 @X0 0 e@3873 ]
+"15800
+[v _TRISA `Vuc ~T0 @X0 0 e@3976 ]
+"15922
+[v _TRISB `Vuc ~T0 @X0 0 e@3977 ]
+"16044
+[v _TRISC `Vuc ~T0 @X0 0 e@3978 ]
+"8721
+[v _IOCCP `Vuc ~T0 @X0 0 e@3868 ]
+"8659
+[v _IOCCN `Vuc ~T0 @X0 0 e@3867 ]
+"4798
+[s S305 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S305 . INT0IF INT1IF INT2IF . IOCIF TMR0IF ]
+"4797
+[u S304 `S305 1 ]
+[n S304 . . ]
+"4807
+[v _PIR0bits `VS304 ~T0 @X0 0 e@3786 ]
+"4392
+[s S284 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S284 . INT0IE INT1IE INT2IE . IOCIE TMR0IE ]
+"4391
+[u S283 `S284 1 ]
+[n S283 . . ]
+"4401
+[v _PIE0bits `VS283 ~T0 @X0 0 e@3778 ]
+"22170
+[s S1187 :4 `uc 1 ]
+[n S1187 . CS ]
+"22173
+[s S1188 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1188 . CS0 CS1 CS2 CS3 ]
+"22179
+[s S1189 :4 `uc 1 ]
+[n S1189 . T2CS ]
+"22182
+[s S1190 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1190 . T2CS0 T2CS1 T2CS2 T2CS3 ]
+"22169
+[u S1186 `S1187 1 `S1188 1 `S1189 1 `S1190 1 ]
+[n S1186 . . . . . ]
+"22189
+[v _T2CLKbits `VS1186 ~T0 @X0 0 e@4031 ]
+"21818
+[s S1172 :4 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S1172 . OUTPS CKPS ON ]
+"21823
+[s S1173 :4 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S1173 . T2OUTPS T2CKPS T2ON ]
+"21828
+[s S1174 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1174 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 T2CKPS0 T2CKPS1 T2CKPS2 ]
+"21837
+[s S1175 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1175 . OUTPS0 OUTPS1 OUTPS2 OUTPS3 CKPS0 CKPS1 CKPS2 TMR2ON ]
+"21817
+[u S1171 `S1172 1 `S1173 1 `S1174 1 `S1175 1 ]
+[n S1171 . . . . . ]
+"21848
+[v _T2CONbits `VS1171 ~T0 @X0 0 e@4029 ]
+"21774
+[v _T2PR `Vuc ~T0 @X0 0 e@4028 ]
+"21958
+[v _T2HLT `Vuc ~T0 @X0 0 e@4030 ]
+"22244
+[v _T2RST `Vuc ~T0 @X0 0 e@4032 ]
+"5017
+[s S316 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S316 . TMR1IF TMR2IF TMR3IF TMR4IF TMR5IF TMR6IF ]
+"5016
+[u S315 `S316 1 ]
+[n S315 . . ]
+"5026
+[v _PIR4bits `VS315 ~T0 @X0 0 e@3790 ]
+"4643
+[s S296 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S296 . TMR1IE TMR2IE TMR3IE TMR4IE TMR5IE TMR6IE ]
+"4642
+[u S295 `S296 1 ]
+[n S295 . . ]
+"4652
+[v _PIE4bits `VS295 ~T0 @X0 0 e@3782 ]
+"21582
+[s S1154 :4 `uc 1 ]
+[n S1154 . CS ]
+"21585
+[s S1155 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1155 . CS0 CS1 CS2 CS3 ]
+"21591
+[s S1156 :4 `uc 1 ]
+[n S1156 . T4CS ]
+"21594
+[s S1157 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1157 . T4CS0 T4CS1 T4CS2 T4CS3 ]
+"21581
+[u S1153 `S1154 1 `S1155 1 `S1156 1 `S1157 1 ]
+[n S1153 . . . . . ]
+"21601
+[v _T4CLKbits `VS1153 ~T0 @X0 0 e@4025 ]
+"21230
+[s S1139 :4 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S1139 . OUTPS CKPS ON ]
+"21235
+[s S1140 :4 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S1140 . T4OUTPS T4CKPS T4ON ]
+"21240
+[s S1141 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1141 . T4OUTPS0 T4OUTPS1 T4OUTPS2 T4OUTPS3 T4CKPS0 T4CKPS1 T4CKPS2 ]
+"21249
+[s S1142 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1142 . OUTPS0 OUTPS1 OUTPS2 OUTPS3 CKPS0 CKPS1 CKPS2 TMR4ON ]
+"21229
+[u S1138 `S1139 1 `S1140 1 `S1141 1 `S1142 1 ]
+[n S1138 . . . . . ]
+"21260
+[v _T4CONbits `VS1138 ~T0 @X0 0 e@4023 ]
+"21186
+[v _T4PR `Vuc ~T0 @X0 0 e@4022 ]
+"21370
+[v _T4HLT `Vuc ~T0 @X0 0 e@4024 ]
+"21656
+[v _T4RST `Vuc ~T0 @X0 0 e@4026 ]
+"4837
+[v _PIR1 `Vuc ~T0 @X0 0 e@3787 ]
+"4885
+[v _PIR2 `Vuc ~T0 @X0 0 e@3788 ]
+"4933
+[v _PIR3 `Vuc ~T0 @X0 0 e@3789 ]
+"5011
+[v _PIR4 `Vuc ~T0 @X0 0 e@3790 ]
+"5061
+[v _PIR5 `Vuc ~T0 @X0 0 e@3791 ]
+"26395
+[s S1408 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1408 . INT0EDG INT1EDG INT2EDG . IPEN PEIE_GIEL GIE_GIEH ]
+"26404
+[s S1409 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1409 . . PEIE GIE ]
+"26409
+[s S1410 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1410 . . GIEL GIEH ]
+"26394
+[u S1407 `S1408 1 `S1409 1 `S1410 1 ]
+[n S1407 . . . . ]
+"26415
+[v _INTCONbits `VS1407 ~T0 @X0 0 e@4082 ]
+"16250
+[v _PORTB `Vuc ~T0 @X0 0 e@3982 ]
+"16661
+[v _SSP1ADD `Vuc ~T0 @X0 0 e@3987 ]
+"16781
+[v _SSP1MSK `Vuc ~T0 @X0 0 e@3988 ]
+"17311
+[s S878 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S878 . SSPM CKP SSPEN SSPOV WCOL ]
+"17318
+[s S879 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S879 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"17324
+[s S880 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S880 . SSPM01 SSPM11 SSPM21 SSPM31 CKP1 SSPEN1 SSPOV1 WCOL1 ]
+"17310
+[u S877 `S878 1 `S879 1 `S880 1 ]
+[n S877 . . . . ]
+"17335
+[v _SSP1CON1bits `VS877 ~T0 @X0 0 e@3990 ]
+"17431
+[s S882 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S882 . SEN RSEN PEN RCEN ACKEN ACKDT ACKSTAT GCEN ]
+"17441
+[s S883 :1 `uc 1 :5 `uc 1 ]
+[n S883 . . ADMSK ]
+"17445
+[s S884 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S884 . . ADMSK1 ADMSK2 ADMSK3 ADMSK4 ADMSK5 ]
+"17453
+[s S885 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S885 . SEN1 ADMSK11 ADMSK21 ADMSK31 ACKEN1 ACKDT1 ACKSTAT1 GCEN1 ]
+"17463
+[s S886 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S886 . . RSEN1 PEN1 RCEN1 ADMSK41 ADMSK51 ]
+"17430
+[u S881 `S882 1 `S883 1 `S884 1 `S885 1 `S886 1 ]
+[n S881 . . . . . . ]
+"17472
+[v _SSP1CON2bits `VS881 ~T0 @X0 0 e@3991 ]
+"16857
+[s S852 :2 `uc 1 :1 `uc 1 ]
+[n S852 . . R_NOT_W ]
+"16861
+[s S853 :5 `uc 1 :1 `uc 1 ]
+[n S853 . . D_NOT_A ]
+"16865
+[s S854 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S854 . BF UA R_nW S P D_nA CKE SMP ]
+"16875
+[s S855 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S855 . . R_W . D_A ]
+"16881
+[s S856 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S856 . . nW . nA ]
+"16887
+[s S857 :2 `uc 1 :1 `uc 1 ]
+[n S857 . . NOT_WRITE ]
+"16891
+[s S858 :5 `uc 1 :1 `uc 1 ]
+[n S858 . . NOT_ADDRESS ]
+"16895
+[s S859 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S859 . . nWRITE . nADDRESS ]
+"16901
+[s S860 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S860 . . READ_WRITE . DATA_ADDRESS ]
+"16907
+[s S861 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S861 . . I2C_READ I2C_START I2C_STOP I2C_DAT ]
+"16914
+[s S862 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S862 . BF1 UA1 R START STOP D CKE1 SMP1 ]
+"16924
+[s S863 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S863 . . RW START1 STOP1 DA ]
+"16931
+[s S864 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S864 . . RW1 I2C_START1 I2C_STOP2 DA1 ]
+"16938
+[s S865 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S865 . . I2C_READ1 S2 P2 DATA_ADDRESS1 ]
+"16945
+[s S866 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S866 . . READ_WRITE1 . D_A1 ]
+"16951
+[s S867 :5 `uc 1 :1 `uc 1 ]
+[n S867 . . D_NOT_A1 ]
+"16955
+[s S868 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S868 . . R_W1 . D_nA1 ]
+"16961
+[s S869 :2 `uc 1 :1 `uc 1 ]
+[n S869 . . R_NOT_W1 ]
+"16965
+[s S870 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S870 . . R_nW1 . I2C_DAT1 ]
+"16971
+[s S871 :2 `uc 1 :1 `uc 1 ]
+[n S871 . . NOT_W2 ]
+"16975
+[s S872 :5 `uc 1 :1 `uc 1 ]
+[n S872 . . NOT_A2 ]
+"16979
+[s S873 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S873 . . nW2 . nA2 ]
+"16985
+[s S874 :2 `uc 1 :1 `uc 1 ]
+[n S874 . . NOT_WRITE1 ]
+"16989
+[s S875 :5 `uc 1 :1 `uc 1 ]
+[n S875 . . NOT_ADDRESS1 ]
+"16993
+[s S876 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S876 . . nWRITE1 . nADDRESS1 ]
+"16856
+[u S851 `S852 1 `S853 1 `S854 1 `S855 1 `S856 1 `S857 1 `S858 1 `S859 1 `S860 1 `S861 1 `S862 1 `S863 1 `S864 1 `S865 1 `S866 1 `S867 1 `S868 1 `S869 1 `S870 1 `S871 1 `S872 1 `S873 1 `S874 1 `S875 1 `S876 1 ]
+[n S851 . . . . . . . . . . . . . . . . . . . . . . . . . . ]
+"17000
+[v _SSP1STATbits `VS851 ~T0 @X0 0 e@3989 ]
+"17618
+[s S888 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S888 . DHEN AHEN SBCDE SDAHT BOEN SCIE PCIE ACKTIM ]
+"17617
+[u S887 `S888 1 ]
+[n S887 . . ]
+"17629
+[v _SSP1CON3bits `VS887 ~T0 @X0 0 e@3992 ]
+"4939
+[s S313 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S313 . SSP1IF BCL1IF SSP2IF BCL2IF TX1IF RC1IF TX2IF RC2IF ]
+"4949
+[s S314 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S314 . . RXBNIF . TXBNIF ]
+"4938
+[u S312 `S313 1 `S314 1 ]
+[n S312 . . . ]
+"4956
+[v _PIR3bits `VS312 ~T0 @X0 0 e@3789 ]
+"4533
+[s S292 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S292 . SSP1IE BCL1IE SSP2IE BCL2IE TX1IE RC1IE TX2IE RC2IE ]
+"4543
+[s S293 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S293 . RXB0IE RXB1IE TXB0IE TXB1IE TXB2IE ]
+"4550
+[s S294 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S294 . . RXBNIE . TXBNIE ]
+"4532
+[u S291 `S292 1 `S293 1 `S294 1 ]
+[n S291 . . . . ]
+"4557
+[v _PIE3bits `VS291 ~T0 @X0 0 e@3781 ]
+"275
+[v _SSP2ADD `Vuc ~T0 @X0 0 e@3731 ]
+"925
+[s S60 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S60 . SSPM CKP SSPEN SSPOV WCOL ]
+"932
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"938
+[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S62 . SSPM02 SSPM12 SSPM22 SSPM32 CKP2 SSPEN2 SSPOV2 WCOL2 ]
+"924
+[u S59 `S60 1 `S61 1 `S62 1 ]
+[n S59 . . . . ]
+"949
+[v _SSP2CON1bits `VS59 ~T0 @X0 0 e@3734 ]
+"471
+[s S34 :2 `uc 1 :1 `uc 1 ]
+[n S34 . . R_NOT_W ]
+"475
+[s S35 :5 `uc 1 :1 `uc 1 ]
+[n S35 . . D_NOT_A ]
+"479
+[s S36 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S36 . BF UA R_nW S P D_nA CKE SMP ]
+"489
+[s S37 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S37 . . R_W . D_A ]
+"495
+[s S38 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S38 . . nW . nA ]
+"501
+[s S39 :2 `uc 1 :1 `uc 1 ]
+[n S39 . . NOT_WRITE ]
+"505
+[s S40 :5 `uc 1 :1 `uc 1 ]
+[n S40 . . NOT_ADDRESS ]
+"509
+[s S41 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S41 . . nWRITE . nADDRESS ]
+"515
+[s S42 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S42 . . READ_WRITE . DATA_ADDRESS ]
+"521
+[s S43 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . . I2C_READ I2C_START I2C_STOP I2C_DAT ]
+"528
+[s S44 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S44 . BF2 UA2 R START STOP D CKE2 SMP2 ]
+"538
+[s S45 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S45 . . RW START2 STOP2 DA ]
+"545
+[s S46 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . . RW2 I2C_START2 I2C_STOP2 DA2 ]
+"552
+[s S47 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . . I2C_READ2 S2 P2 DATA_ADDRESS2 ]
+"559
+[s S48 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S48 . . READ_WRITE2 . D_A2 ]
+"565
+[s S49 :5 `uc 1 :1 `uc 1 ]
+[n S49 . . D_NOT_A2 ]
+"569
+[s S50 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S50 . . R_W2 . D_nA2 ]
+"575
+[s S51 :2 `uc 1 :1 `uc 1 ]
+[n S51 . . R_NOT_W2 ]
+"579
+[s S52 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S52 . . R_nW2 . I2C_DAT2 ]
+"585
+[s S53 :2 `uc 1 :1 `uc 1 ]
+[n S53 . . NOT_W2 ]
+"589
+[s S54 :5 `uc 1 :1 `uc 1 ]
+[n S54 . . NOT_A2 ]
+"593
+[s S55 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S55 . . nW2 . nA2 ]
+"599
+[s S56 :2 `uc 1 :1 `uc 1 ]
+[n S56 . . NOT_WRITE2 ]
+"603
+[s S57 :5 `uc 1 :1 `uc 1 ]
+[n S57 . . NOT_ADDRESS2 ]
+"607
+[s S58 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S58 . . nWRITE2 . nADDRESS2 ]
+"470
+[u S33 `S34 1 `S35 1 `S36 1 `S37 1 `S38 1 `S39 1 `S40 1 `S41 1 `S42 1 `S43 1 `S44 1 `S45 1 `S46 1 `S47 1 `S48 1 `S49 1 `S50 1 `S51 1 `S52 1 `S53 1 `S54 1 `S55 1 `S56 1 `S57 1 `S58 1 ]
+[n S33 . . . . . . . . . . . . . . . . . . . . . . . . . . ]
+"614
+[v _SSP2STATbits `VS33 ~T0 @X0 0 e@3733 ]
+"15384
+[s S781 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S781 . RD WR WREN WRERR FREE . NVMREG ]
+"15393
+[s S782 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S782 . . NVMREG0 NVMREG1 ]
+"15383
+[u S780 `S781 1 `S782 1 ]
+[n S780 . . . ]
+"15399
+[v _NVMCON1bits `VS780 ~T0 @X0 0 e@3969 ]
+"15117
+[v _NVMADR `Vus ~T0 @X0 0 e@3966 ]
+"15308
+[v _NVMDAT `Vuc ~T0 @X0 0 e@3968 ]
+"15444
+[v _NVMCON2 `Vuc ~T0 @X0 0 e@3970 ]
+"1045
+[s S64 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S64 . SEN RSEN PEN RCEN ACKEN ACKDT ACKSTAT GCEN ]
+"1055
+[s S65 :1 `uc 1 :5 `uc 1 ]
+[n S65 . . ADMSK ]
+"1059
+[s S66 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S66 . . ADMSK1 ADMSK2 ADMSK3 ADMSK4 ADMSK5 ]
+"1067
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . SEN2 ADMSK12 ADMSK22 ADMSK32 ACKEN2 ACKDT2 ACKSTAT2 GCEN2 ]
+"1077
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . . RSEN2 PEN2 RCEN2 ADMSK42 ADMSK52 ]
+"1044
+[u S63 `S64 1 `S65 1 `S66 1 `S67 1 `S68 1 ]
+[n S63 . . . . . . ]
+"1086
+[v _SSP2CON2bits `VS63 ~T0 @X0 0 e@3735 ]
+"255
+[v _SSP2BUF `Vuc ~T0 @X0 0 e@3730 ]
+"16321
+[v _PORTC `Vuc ~T0 @X0 0 e@3983 ]
+"8597
+[v _IOCCF `Vuc ~T0 @X0 0 e@3866 ]
+"16641
+[v _SSP1BUF `Vuc ~T0 @X0 0 e@3986 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+[p mainexit ]
+"37 SensorBoard_PCB.c
+[p x FEXTOSC  =  OFF      ]
+"38
+[p x RSTOSC  =  HFINTOSC_64MHZ ]
+"41
+[p x CLKOUTEN  =  OFF    ]
+"42
+[p x CSWEN  =  ON        ]
+"43
+[p x FCMEN  =  ON        ]
+"46
+[p x MCLRE  =  EXTMCLR   ]
+"47
+[p x PWRTE  =  OFF       ]
+"48
+[p x LPBOREN  =  OFF     ]
+"49
+[p x BOREN  =  SBORDIS   ]
+"52
+[p x BORV  =  VBOR_285   ]
+"53
+[p x ZCD  =  OFF         ]
+"54
+[p x PPS1WAY  =  ON      ]
+"55
+[p x STVREN  =  ON       ]
+"56
+[p x DEBUG  =  OFF       ]
+"57
+[p x XINST  =  OFF       ]
+"60
+[p x WDTCPS  =  WDTCPS_31 ]
+"61
+[p x WDTE  =  OFF        ]
+"64
+[p x WDTCWS  =  WDTCWS_7 ]
+"65
+[p x WDTCCS  =  SC       ]
+"68
+[p x WRT0  =  OFF        ]
+"69
+[p x WRT1  =  OFF        ]
+"70
+[p x WRT2  =  OFF        ]
+"71
+[p x WRT3  =  OFF        ]
+"74
+[p x WRTC  =  OFF        ]
+"75
+[p x WRTB  =  OFF        ]
+"76
+[p x WRTD  =  OFF        ]
+"77
+[p x SCANE  =  ON        ]
+"78
+[p x LVP  =  ON          ]
+"81
+[p x CP  =  OFF          ]
+"82
+[p x CPD  =  OFF         ]
+"87
+[p x EBTR0  =  OFF       ]
+"88
+[p x EBTR1  =  OFF       ]
+"89
+[p x EBTR2  =  OFF       ]
+"90
+[p x EBTR3  =  OFF       ]
+"93
+[p x EBTRB  =  OFF       ]
+"55 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc/pic18f26k40.h
+[; <" RX2PPS equ 0E8Dh ;# ">
+"89
+[; <" CK2PPS equ 0E8Eh ;# ">
+"94
+[; <" TX2PPS equ 0E8Eh ;# ">
+"155
+[; <" SSP2CLKPPS equ 0E8Fh ;# ">
+"189
+[; <" SSP2DATPPS equ 0E90h ;# ">
+"223
+[; <" SSP2SSPPS equ 0E91h ;# ">
+"257
+[; <" SSP2BUF equ 0E92h ;# ">
+"277
+[; <" SSP2ADD equ 0E93h ;# ">
+"397
+[; <" SSP2MSK equ 0E94h ;# ">
+"467
+[; <" SSP2STAT equ 0E95h ;# ">
+"921
+[; <" SSP2CON1 equ 0E96h ;# ">
+"1041
+[; <" SSP2CON2 equ 0E97h ;# ">
+"1228
+[; <" SSP2CON3 equ 0E98h ;# ">
+"1290
+[; <" RC2REG equ 0E99h ;# ">
+"1295
+[; <" RCREG2 equ 0E99h ;# ">
+"1328
+[; <" TX2REG equ 0E9Ah ;# ">
+"1333
+[; <" TXREG2 equ 0E9Ah ;# ">
+"1366
+[; <" SP2BRG equ 0E9Bh ;# ">
+"1373
+[; <" SP2BRGL equ 0E9Bh ;# ">
+"1378
+[; <" SPBRG2 equ 0E9Bh ;# ">
+"1411
+[; <" SP2BRGH equ 0E9Ch ;# ">
+"1416
+[; <" SPBRGH2 equ 0E9Ch ;# ">
+"1449
+[; <" RC2STA equ 0E9Dh ;# ">
+"1454
+[; <" RCSTA2 equ 0E9Dh ;# ">
+"1623
+[; <" TX2STA equ 0E9Eh ;# ">
+"1628
+[; <" TXSTA2 equ 0E9Eh ;# ">
+"1779
+[; <" BAUD2CON equ 0E9Fh ;# ">
+"1784
+[; <" BAUDCON2 equ 0E9Fh ;# ">
+"1788
+[; <" BAUDCTL2 equ 0E9Fh ;# ">
+"2142
+[; <" PPSLOCK equ 0EA0h ;# ">
+"2162
+[; <" INT0PPS equ 0EA1h ;# ">
+"2222
+[; <" INT1PPS equ 0EA2h ;# ">
+"2282
+[; <" INT2PPS equ 0EA3h ;# ">
+"2342
+[; <" T0CKIPPS equ 0EA4h ;# ">
+"2402
+[; <" T1CKIPPS equ 0EA5h ;# ">
+"2468
+[; <" T1GPPS equ 0EA6h ;# ">
+"2534
+[; <" T3CKIPPS equ 0EA7h ;# ">
+"2600
+[; <" T3GPPS equ 0EA8h ;# ">
+"2666
+[; <" T5CKIPPS equ 0EA9h ;# ">
+"2732
+[; <" T5GPPS equ 0EAAh ;# ">
+"2798
+[; <" T2INPPS equ 0EABh ;# ">
+"2864
+[; <" T4INPPS equ 0EACh ;# ">
+"2930
+[; <" T6INPPS equ 0EADh ;# ">
+"2996
+[; <" ADACTPPS equ 0EAEh ;# ">
+"3062
+[; <" CCP1PPS equ 0EAFh ;# ">
+"3128
+[; <" CCP2PPS equ 0EB0h ;# ">
+"3194
+[; <" CWG1PPS equ 0EB1h ;# ">
+"3199
+[; <" CWGINPPS equ 0EB1h ;# ">
+"3404
+[; <" MDCARLPPS equ 0EB2h ;# ">
+"3470
+[; <" MDCARHPPS equ 0EB3h ;# ">
+"3536
+[; <" MDSRCPPS equ 0EB4h ;# ">
+"3602
+[; <" RX1PPS equ 0EB5h ;# ">
+"3607
+[; <" RXPPS equ 0EB5h ;# ">
+"3668
+[; <" CK1PPS equ 0EB6h ;# ">
+"3673
+[; <" TX1PPS equ 0EB6h ;# ">
+"3677
+[; <" CKPPS equ 0EB6h ;# ">
+"3681
+[; <" TXPPS equ 0EB6h ;# ">
+"3794
+[; <" SSP1CLKPPS equ 0EB7h ;# ">
+"3799
+[; <" SSPCLKPPS equ 0EB7h ;# ">
+"3860
+[; <" SSP1DATPPS equ 0EB8h ;# ">
+"3865
+[; <" SSPDATPPS equ 0EB8h ;# ">
+"3926
+[; <" SSP1SSPPS equ 0EB9h ;# ">
+"3931
+[; <" SSPSSPPS equ 0EB9h ;# ">
+"3992
+[; <" IPR0 equ 0EBAh ;# ">
+"4037
+[; <" IPR1 equ 0EBBh ;# ">
+"4085
+[; <" IPR2 equ 0EBCh ;# ">
+"4133
+[; <" IPR3 equ 0EBDh ;# ">
+"4211
+[; <" IPR4 equ 0EBEh ;# ">
+"4269
+[; <" IPR5 equ 0EBFh ;# ">
+"4315
+[; <" IPR6 equ 0EC0h ;# ">
+"4341
+[; <" IPR7 equ 0EC1h ;# ">
+"4388
+[; <" PIE0 equ 0EC2h ;# ">
+"4433
+[; <" PIE1 equ 0EC3h ;# ">
+"4481
+[; <" PIE2 equ 0EC4h ;# ">
+"4529
+[; <" PIE3 equ 0EC5h ;# ">
+"4639
+[; <" PIE4 equ 0EC6h ;# ">
+"4689
+[; <" PIE5 equ 0EC7h ;# ">
+"4721
+[; <" PIE6 equ 0EC8h ;# ">
+"4747
+[; <" PIE7 equ 0EC9h ;# ">
+"4794
+[; <" PIR0 equ 0ECAh ;# ">
+"4839
+[; <" PIR1 equ 0ECBh ;# ">
+"4887
+[; <" PIR2 equ 0ECCh ;# ">
+"4935
+[; <" PIR3 equ 0ECDh ;# ">
+"5013
+[; <" PIR4 equ 0ECEh ;# ">
+"5063
+[; <" PIR5 equ 0ECFh ;# ">
+"5095
+[; <" PIR6 equ 0ED0h ;# ">
+"5121
+[; <" PIR7 equ 0ED1h ;# ">
+"5168
+[; <" WDTCON0 equ 0ED2h ;# ">
+"5243
+[; <" WDTCON1 equ 0ED3h ;# ">
+"5337
+[; <" WDTPSL equ 0ED4h ;# ">
+"5465
+[; <" WDTPSH equ 0ED5h ;# ">
+"5593
+[; <" WDTTMR equ 0ED6h ;# ">
+"5681
+[; <" CPUDOZE equ 0ED7h ;# ">
+"5746
+[; <" OSCCON1 equ 0ED8h ;# ">
+"5816
+[; <" OSCCON2 equ 0ED9h ;# ">
+"5886
+[; <" OSCCON3 equ 0EDAh ;# ">
+"5926
+[; <" OSCSTAT equ 0EDBh ;# ">
+"5931
+[; <" OSCSTAT1 equ 0EDBh ;# ">
+"6038
+[; <" OSCEN equ 0EDCh ;# ">
+"6089
+[; <" OSCTUNE equ 0EDDh ;# ">
+"6147
+[; <" OSCFRQ equ 0EDEh ;# ">
+"6193
+[; <" VREGCON equ 0EDFh ;# ">
+"6227
+[; <" BORCON equ 0EE0h ;# ">
+"6254
+[; <" PMD0 equ 0EE1h ;# ">
+"6331
+[; <" PMD1 equ 0EE2h ;# ">
+"6395
+[; <" PMD2 equ 0EE3h ;# ">
+"6440
+[; <" PMD3 equ 0EE4h ;# ">
+"6478
+[; <" PMD4 equ 0EE5h ;# ">
+"6531
+[; <" PMD5 equ 0EE6h ;# ">
+"6551
+[; <" RA0PPS equ 0EE7h ;# ">
+"6595
+[; <" RA1PPS equ 0EE8h ;# ">
+"6639
+[; <" RA2PPS equ 0EE9h ;# ">
+"6683
+[; <" RA3PPS equ 0EEAh ;# ">
+"6727
+[; <" RA4PPS equ 0EEBh ;# ">
+"6771
+[; <" RA5PPS equ 0EECh ;# ">
+"6815
+[; <" RA6PPS equ 0EEDh ;# ">
+"6859
+[; <" RA7PPS equ 0EEEh ;# ">
+"6903
+[; <" RB0PPS equ 0EEFh ;# ">
+"6947
+[; <" RB1PPS equ 0EF0h ;# ">
+"6991
+[; <" RB2PPS equ 0EF1h ;# ">
+"7035
+[; <" RB3PPS equ 0EF2h ;# ">
+"7079
+[; <" RB4PPS equ 0EF3h ;# ">
+"7123
+[; <" RB5PPS equ 0EF4h ;# ">
+"7167
+[; <" RB6PPS equ 0EF5h ;# ">
+"7211
+[; <" RB7PPS equ 0EF6h ;# ">
+"7255
+[; <" RC0PPS equ 0EF7h ;# ">
+"7299
+[; <" RC1PPS equ 0EF8h ;# ">
+"7343
+[; <" RC2PPS equ 0EF9h ;# ">
+"7387
+[; <" RC3PPS equ 0EFAh ;# ">
+"7431
+[; <" RC4PPS equ 0EFBh ;# ">
+"7475
+[; <" RC5PPS equ 0EFCh ;# ">
+"7519
+[; <" RC6PPS equ 0EFDh ;# ">
+"7563
+[; <" RC7PPS equ 0EFEh ;# ">
+"7607
+[; <" IOCAF equ 0F0Ah ;# ">
+"7669
+[; <" IOCAN equ 0F0Bh ;# ">
+"7731
+[; <" IOCAP equ 0F0Ch ;# ">
+"7793
+[; <" INLVLA equ 0F0Dh ;# ">
+"7855
+[; <" SLRCONA equ 0F0Eh ;# ">
+"7917
+[; <" ODCONA equ 0F0Fh ;# ">
+"7979
+[; <" WPUA equ 0F10h ;# ">
+"8041
+[; <" ANSELA equ 0F11h ;# ">
+"8103
+[; <" IOCBF equ 0F12h ;# ">
+"8165
+[; <" IOCBN equ 0F13h ;# ">
+"8227
+[; <" IOCBP equ 0F14h ;# ">
+"8289
+[; <" INLVLB equ 0F15h ;# ">
+"8351
+[; <" SLRCONB equ 0F16h ;# ">
+"8413
+[; <" ODCONB equ 0F17h ;# ">
+"8475
+[; <" WPUB equ 0F18h ;# ">
+"8537
+[; <" ANSELB equ 0F19h ;# ">
+"8599
+[; <" IOCCF equ 0F1Ah ;# ">
+"8661
+[; <" IOCCN equ 0F1Bh ;# ">
+"8723
+[; <" IOCCP equ 0F1Ch ;# ">
+"8785
+[; <" INLVLC equ 0F1Dh ;# ">
+"8847
+[; <" SLRCONC equ 0F1Eh ;# ">
+"8909
+[; <" ODCONC equ 0F1Fh ;# ">
+"8971
+[; <" WPUC equ 0F20h ;# ">
+"9033
+[; <" ANSELC equ 0F21h ;# ">
+"9095
+[; <" IOCEF equ 0F27h ;# ">
+"9116
+[; <" IOCEN equ 0F28h ;# ">
+"9137
+[; <" IOCEP equ 0F29h ;# ">
+"9158
+[; <" INLVLE equ 0F2Ah ;# ">
+"9179
+[; <" WPUE equ 0F2Dh ;# ">
+"9200
+[; <" HLVDCON0 equ 0F2Fh ;# ">
+"9280
+[; <" HLVDCON1 equ 0F30h ;# ">
+"9352
+[; <" FVRCON equ 0F31h ;# ">
+"9441
+[; <" ZCDCON equ 0F32h ;# ">
+"9521
+[; <" DAC1CON0 equ 0F33h ;# ">
+"9622
+[; <" DAC1CON1 equ 0F34h ;# ">
+"9674
+[; <" CM2CON0 equ 0F35h ;# ">
+"9754
+[; <" CM2CON1 equ 0F36h ;# ">
+"9794
+[; <" CM2NCH equ 0F37h ;# ">
+"9854
+[; <" CM2PCH equ 0F38h ;# ">
+"9914
+[; <" CM1CON0 equ 0F39h ;# ">
+"9994
+[; <" CM1CON1 equ 0F3Ah ;# ">
+"10034
+[; <" CM1NCH equ 0F3Bh ;# ">
+"10094
+[; <" CM1PCH equ 0F3Ch ;# ">
+"10154
+[; <" CMOUT equ 0F3Dh ;# ">
+"10180
+[; <" CLKRCON equ 0F3Eh ;# ">
+"10284
+[; <" CLKRCLK equ 0F3Fh ;# ">
+"10344
+[; <" CWG1CLK equ 0F40h ;# ">
+"10349
+[; <" CWG1CLKCON equ 0F40h ;# ">
+"10398
+[; <" CWG1ISM equ 0F41h ;# ">
+"10444
+[; <" CWG1DBR equ 0F42h ;# ">
+"10548
+[; <" CWG1DBF equ 0F43h ;# ">
+"10652
+[; <" CWG1CON0 equ 0F44h ;# ">
+"10753
+[; <" CWG1CON1 equ 0F45h ;# ">
+"10831
+[; <" CWG1AS0 equ 0F46h ;# ">
+"10951
+[; <" CWG1AS1 equ 0F47h ;# ">
+"11001
+[; <" CWG1STR equ 0F48h ;# ">
+"11115
+[; <" SCANLADR equ 0F49h ;# ">
+"11122
+[; <" SCANLADRL equ 0F49h ;# ">
+"11250
+[; <" SCANLADRH equ 0F4Ah ;# ">
+"11378
+[; <" SCANLADRU equ 0F4Bh ;# ">
+"11484
+[; <" SCANHADR equ 0F4Ch ;# ">
+"11491
+[; <" SCANHADRL equ 0F4Ch ;# ">
+"11619
+[; <" SCANHADRH equ 0F4Dh ;# ">
+"11747
+[; <" SCANHADRU equ 0F4Eh ;# ">
+"11851
+[; <" SCANCON0 equ 0F4Fh ;# ">
+"11978
+[; <" SCANTRIG equ 0F50h ;# ">
+"12058
+[; <" MDCON0 equ 0F51h ;# ">
+"12126
+[; <" MDCON1 equ 0F52h ;# ">
+"12192
+[; <" MDSRC equ 0F53h ;# ">
+"12272
+[; <" MDCARL equ 0F54h ;# ">
+"12340
+[; <" MDCARH equ 0F55h ;# ">
+"12408
+[; <" ADACT equ 0F56h ;# ">
+"12460
+[; <" ADCLK equ 0F57h ;# ">
+"12518
+[; <" ADREF equ 0F58h ;# ">
+"12559
+[; <" ADCON1 equ 0F59h ;# ">
+"12598
+[; <" ADCON2 equ 0F5Ah ;# ">
+"12675
+[; <" ADCON3 equ 0F5Bh ;# ">
+"12746
+[; <" ADACQ equ 0F5Ch ;# ">
+"12816
+[; <" ADCAP equ 0F5Dh ;# ">
+"12868
+[; <" ADPRE equ 0F5Eh ;# ">
+"12938
+[; <" ADPCH equ 0F5Fh ;# ">
+"12996
+[; <" ADCON0 equ 0F60h ;# ">
+"13091
+[; <" ADPREV equ 0F61h ;# ">
+"13098
+[; <" ADPREVL equ 0F61h ;# ">
+"13168
+[; <" ADPREVH equ 0F62h ;# ">
+"13238
+[; <" ADRES equ 0F63h ;# ">
+"13245
+[; <" ADRESL equ 0F63h ;# ">
+"13315
+[; <" ADRESH equ 0F64h ;# ">
+"13377
+[; <" ADSTAT equ 0F65h ;# ">
+"13442
+[; <" ADRPT equ 0F66h ;# ">
+"13512
+[; <" ADCNT equ 0F67h ;# ">
+"13582
+[; <" ADSTPT equ 0F68h ;# ">
+"13589
+[; <" ADSTPTL equ 0F68h ;# ">
+"13659
+[; <" ADSTPTH equ 0F69h ;# ">
+"13729
+[; <" ADLTH equ 0F6Ah ;# ">
+"13736
+[; <" ADLTHL equ 0F6Ah ;# ">
+"13806
+[; <" ADLTHH equ 0F6Bh ;# ">
+"13876
+[; <" ADUTH equ 0F6Ch ;# ">
+"13883
+[; <" ADUTHL equ 0F6Ch ;# ">
+"13953
+[; <" ADUTHH equ 0F6Dh ;# ">
+"14023
+[; <" ADERR equ 0F6Eh ;# ">
+"14030
+[; <" ADERRL equ 0F6Eh ;# ">
+"14100
+[; <" ADERRH equ 0F6Fh ;# ">
+"14170
+[; <" ADACC equ 0F70h ;# ">
+"14177
+[; <" ADACCL equ 0F70h ;# ">
+"14247
+[; <" ADACCH equ 0F71h ;# ">
+"14317
+[; <" ADFLTR equ 0F72h ;# ">
+"14324
+[; <" ADFLTRL equ 0F72h ;# ">
+"14394
+[; <" ADFLTRH equ 0F73h ;# ">
+"14464
+[; <" CRCDATA equ 0F74h ;# ">
+"14471
+[; <" CRCDATL equ 0F74h ;# ">
+"14533
+[; <" CRCDATH equ 0F75h ;# ">
+"14595
+[; <" CRCACC equ 0F76h ;# ">
+"14602
+[; <" CRCACCL equ 0F76h ;# ">
+"14664
+[; <" CRCACCH equ 0F77h ;# ">
+"14726
+[; <" CRCSHFT equ 0F78h ;# ">
+"14733
+[; <" CRCSHIFTL equ 0F78h ;# ">
+"14795
+[; <" CRCSHIFTH equ 0F79h ;# ">
+"14857
+[; <" CRCXOR equ 0F7Ah ;# ">
+"14864
+[; <" CRCXORL equ 0F7Ah ;# ">
+"14921
+[; <" CRCXORH equ 0F7Bh ;# ">
+"14983
+[; <" CRCCON0 equ 0F7Ch ;# ">
+"15043
+[; <" CRCCON1 equ 0F7Dh ;# ">
+"15119
+[; <" NVMADR equ 0F7Eh ;# ">
+"15126
+[; <" NVMADRL equ 0F7Eh ;# ">
+"15254
+[; <" NVMADRH equ 0F7Fh ;# ">
+"15310
+[; <" NVMDAT equ 0F80h ;# ">
+"15380
+[; <" NVMCON1 equ 0F81h ;# ">
+"15446
+[; <" NVMCON2 equ 0F82h ;# ">
+"15466
+[; <" LATA equ 0F83h ;# ">
+"15578
+[; <" LATB equ 0F84h ;# ">
+"15690
+[; <" LATC equ 0F85h ;# ">
+"15802
+[; <" TRISA equ 0F88h ;# ">
+"15807
+[; <" DDRA equ 0F88h ;# ">
+"15924
+[; <" TRISB equ 0F89h ;# ">
+"15929
+[; <" DDRB equ 0F89h ;# ">
+"16046
+[; <" TRISC equ 0F8Ah ;# ">
+"16051
+[; <" DDRC equ 0F8Ah ;# ">
+"16168
+[; <" PORTA equ 0F8Dh ;# ">
+"16252
+[; <" PORTB equ 0F8Eh ;# ">
+"16323
+[; <" PORTC equ 0F8Fh ;# ">
+"16409
+[; <" PORTE equ 0F91h ;# ">
+"16643
+[; <" SSP1BUF equ 0F92h ;# ">
+"16663
+[; <" SSP1ADD equ 0F93h ;# ">
+"16783
+[; <" SSP1MSK equ 0F94h ;# ">
+"16853
+[; <" SSP1STAT equ 0F95h ;# ">
+"17307
+[; <" SSP1CON1 equ 0F96h ;# ">
+"17427
+[; <" SSP1CON2 equ 0F97h ;# ">
+"17614
+[; <" SSP1CON3 equ 0F98h ;# ">
+"17676
+[; <" RC1REG equ 0F99h ;# ">
+"17681
+[; <" RCREG equ 0F99h ;# ">
+"17685
+[; <" RCREG1 equ 0F99h ;# ">
+"17730
+[; <" TX1REG equ 0F9Ah ;# ">
+"17735
+[; <" TXREG1 equ 0F9Ah ;# ">
+"17739
+[; <" TXREG equ 0F9Ah ;# ">
+"17784
+[; <" SP1BRG equ 0F9Bh ;# ">
+"17791
+[; <" SP1BRGL equ 0F9Bh ;# ">
+"17796
+[; <" SPBRG equ 0F9Bh ;# ">
+"17800
+[; <" SPBRG1 equ 0F9Bh ;# ">
+"17804
+[; <" SPBRGL equ 0F9Bh ;# ">
+"17861
+[; <" SP1BRGH equ 0F9Ch ;# ">
+"17866
+[; <" SPBRGH equ 0F9Ch ;# ">
+"17870
+[; <" SPBRGH1 equ 0F9Ch ;# ">
+"17915
+[; <" RC1STA equ 0F9Dh ;# ">
+"17920
+[; <" RCSTA1 equ 0F9Dh ;# ">
+"17924
+[; <" RCSTA equ 0F9Dh ;# ">
+"18200
+[; <" TX1STA equ 0F9Eh ;# ">
+"18205
+[; <" TXSTA1 equ 0F9Eh ;# ">
+"18209
+[; <" TXSTA equ 0F9Eh ;# ">
+"18644
+[; <" BAUD1CON equ 0F9Fh ;# ">
+"18649
+[; <" BAUDCON1 equ 0F9Fh ;# ">
+"18653
+[; <" BAUDCTL1 equ 0F9Fh ;# ">
+"18657
+[; <" BAUDCON equ 0F9Fh ;# ">
+"18661
+[; <" BAUDCTL equ 0F9Fh ;# ">
+"19425
+[; <" PWM4DC equ 0FA0h ;# ">
+"19432
+[; <" PWM4DCL equ 0FA0h ;# ">
+"19498
+[; <" PWM4DCH equ 0FA1h ;# ">
+"19668
+[; <" PWM4CON equ 0FA2h ;# ">
+"19724
+[; <" PWM3DC equ 0FA3h ;# ">
+"19731
+[; <" PWM3DCL equ 0FA3h ;# ">
+"19797
+[; <" PWM3DCH equ 0FA4h ;# ">
+"19967
+[; <" PWM3CON equ 0FA5h ;# ">
+"20023
+[; <" CCPR2 equ 0FA6h ;# ">
+"20030
+[; <" CCPR2L equ 0FA6h ;# ">
+"20050
+[; <" CCPR2H equ 0FA7h ;# ">
+"20070
+[; <" CCP2CON equ 0FA8h ;# ">
+"20188
+[; <" CCP2CAP equ 0FA9h ;# ">
+"20244
+[; <" CCPR1 equ 0FAAh ;# ">
+"20251
+[; <" CCPR1L equ 0FAAh ;# ">
+"20271
+[; <" CCPR1H equ 0FABh ;# ">
+"20291
+[; <" CCP1CON equ 0FACh ;# ">
+"20418
+[; <" CCP1CAP equ 0FADh ;# ">
+"20474
+[; <" CCPTMRS equ 0FAEh ;# ">
+"20562
+[; <" T6TMR equ 0FAFh ;# ">
+"20567
+[; <" TMR6 equ 0FAFh ;# ">
+"20600
+[; <" T6PR equ 0FB0h ;# ">
+"20605
+[; <" PR6 equ 0FB0h ;# ">
+"20638
+[; <" T6CON equ 0FB1h ;# ">
+"20784
+[; <" T6HLT equ 0FB2h ;# ">
+"20912
+[; <" T6CLKCON equ 0FB3h ;# ">
+"20917
+[; <" T6CLK equ 0FB3h ;# ">
+"21070
+[; <" T6RST equ 0FB4h ;# ">
+"21150
+[; <" T4TMR equ 0FB5h ;# ">
+"21155
+[; <" TMR4 equ 0FB5h ;# ">
+"21188
+[; <" T4PR equ 0FB6h ;# ">
+"21193
+[; <" PR4 equ 0FB6h ;# ">
+"21226
+[; <" T4CON equ 0FB7h ;# ">
+"21372
+[; <" T4HLT equ 0FB8h ;# ">
+"21500
+[; <" T4CLKCON equ 0FB9h ;# ">
+"21505
+[; <" T4CLK equ 0FB9h ;# ">
+"21658
+[; <" T4RST equ 0FBAh ;# ">
+"21738
+[; <" T2TMR equ 0FBBh ;# ">
+"21743
+[; <" TMR2 equ 0FBBh ;# ">
+"21776
+[; <" T2PR equ 0FBCh ;# ">
+"21781
+[; <" PR2 equ 0FBCh ;# ">
+"21814
+[; <" T2CON equ 0FBDh ;# ">
+"21960
+[; <" T2HLT equ 0FBEh ;# ">
+"22088
+[; <" T2CLKCON equ 0FBFh ;# ">
+"22093
+[; <" T2CLK equ 0FBFh ;# ">
+"22246
+[; <" T2RST equ 0FC0h ;# ">
+"22326
+[; <" TMR5 equ 0FC1h ;# ">
+"22333
+[; <" TMR5L equ 0FC1h ;# ">
+"22503
+[; <" TMR5H equ 0FC2h ;# ">
+"22623
+[; <" T5CON equ 0FC3h ;# ">
+"22737
+[; <" T5GCON equ 0FC4h ;# ">
+"22742
+[; <" PR5 equ 0FC4h ;# ">
+"22969
+[; <" T5GATE equ 0FC5h ;# ">
+"22974
+[; <" TMR5GATE equ 0FC5h ;# ">
+"23111
+[; <" T5CLK equ 0FC6h ;# ">
+"23116
+[; <" TMR5CLK equ 0FC6h ;# ">
+"23253
+[; <" TMR3 equ 0FC7h ;# ">
+"23260
+[; <" TMR3L equ 0FC7h ;# ">
+"23430
+[; <" TMR3H equ 0FC8h ;# ">
+"23550
+[; <" T3CON equ 0FC9h ;# ">
+"23664
+[; <" T3GCON equ 0FCAh ;# ">
+"23669
+[; <" PR3 equ 0FCAh ;# ">
+"23896
+[; <" T3GATE equ 0FCBh ;# ">
+"23901
+[; <" TMR3GATE equ 0FCBh ;# ">
+"24038
+[; <" T3CLK equ 0FCCh ;# ">
+"24043
+[; <" TMR3CLK equ 0FCCh ;# ">
+"24180
+[; <" TMR1 equ 0FCDh ;# ">
+"24187
+[; <" TMR1L equ 0FCDh ;# ">
+"24357
+[; <" TMR1H equ 0FCEh ;# ">
+"24477
+[; <" T1CON equ 0FCFh ;# ">
+"24591
+[; <" T1GCON equ 0FD0h ;# ">
+"24596
+[; <" PR1 equ 0FD0h ;# ">
+"24823
+[; <" T1GATE equ 0FD1h ;# ">
+"24828
+[; <" TMR1GATE equ 0FD1h ;# ">
+"24965
+[; <" T1CLK equ 0FD2h ;# ">
+"24970
+[; <" TMR1CLK equ 0FD2h ;# ">
+"25107
+[; <" TMR0L equ 0FD3h ;# ">
+"25112
+[; <" TMR0 equ 0FD3h ;# ">
+"25245
+[; <" TMR0H equ 0FD4h ;# ">
+"25250
+[; <" PR0 equ 0FD4h ;# ">
+"25499
+[; <" T0CON0 equ 0FD5h ;# ">
+"25564
+[; <" T0CON1 equ 0FD6h ;# ">
+"25675
+[; <" PCON0 equ 0FD7h ;# ">
+"25828
+[; <" STATUS equ 0FD8h ;# ">
+"25944
+[; <" FSR2 equ 0FD9h ;# ">
+"25951
+[; <" FSR2L equ 0FD9h ;# ">
+"25971
+[; <" FSR2H equ 0FDAh ;# ">
+"25978
+[; <" PLUSW2 equ 0FDBh ;# ">
+"25998
+[; <" PREINC2 equ 0FDCh ;# ">
+"26018
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"26038
+[; <" POSTINC2 equ 0FDEh ;# ">
+"26058
+[; <" INDF2 equ 0FDFh ;# ">
+"26078
+[; <" BSR equ 0FE0h ;# ">
+"26085
+[; <" FSR1 equ 0FE1h ;# ">
+"26092
+[; <" FSR1L equ 0FE1h ;# ">
+"26112
+[; <" FSR1H equ 0FE2h ;# ">
+"26119
+[; <" PLUSW1 equ 0FE3h ;# ">
+"26139
+[; <" PREINC1 equ 0FE4h ;# ">
+"26159
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"26179
+[; <" POSTINC1 equ 0FE6h ;# ">
+"26199
+[; <" INDF1 equ 0FE7h ;# ">
+"26219
+[; <" WREG equ 0FE8h ;# ">
+"26257
+[; <" FSR0 equ 0FE9h ;# ">
+"26264
+[; <" FSR0L equ 0FE9h ;# ">
+"26284
+[; <" FSR0H equ 0FEAh ;# ">
+"26291
+[; <" PLUSW0 equ 0FEBh ;# ">
+"26311
+[; <" PREINC0 equ 0FECh ;# ">
+"26331
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"26351
+[; <" POSTINC0 equ 0FEEh ;# ">
+"26371
+[; <" INDF0 equ 0FEFh ;# ">
+"26391
+[; <" INTCON equ 0FF2h ;# ">
+"26472
+[; <" PROD equ 0FF3h ;# ">
+"26479
+[; <" PRODL equ 0FF3h ;# ">
+"26499
+[; <" PRODH equ 0FF4h ;# ">
+"26519
+[; <" TABLAT equ 0FF5h ;# ">
+"26541
+[; <" TBLPTR equ 0FF6h ;# ">
+"26548
+[; <" TBLPTRL equ 0FF6h ;# ">
+"26568
+[; <" TBLPTRH equ 0FF7h ;# ">
+"26588
+[; <" TBLPTRU equ 0FF8h ;# ">
+"26619
+[; <" PCLAT equ 0FF9h ;# ">
+"26626
+[; <" PC equ 0FF9h ;# ">
+"26633
+[; <" PCL equ 0FF9h ;# ">
+"26653
+[; <" PCLATH equ 0FFAh ;# ">
+"26673
+[; <" PCLATU equ 0FFBh ;# ">
+"26693
+[; <" STKPTR equ 0FFCh ;# ">
+"26791
+[; <" TOS equ 0FFDh ;# ">
+"26798
+[; <" TOSL equ 0FFDh ;# ">
+"26818
+[; <" TOSH equ 0FFEh ;# ">
+"26838
+[; <" TOSU equ 0FFFh ;# ">
+"115 SensorBoard_PCB.c
+[; ;SensorBoard_PCB.c: 115: char pFlag = 0x00;
+[v _pFlag `uc ~T0 @X0 1 e ]
+[i _pFlag
+-> -> 0 `i `uc
+]
+"117
+[; ;SensorBoard_PCB.c: 117: char scanAddress = 0;
+[v _scanAddress `uc ~T0 @X0 1 e ]
+[i _scanAddress
+-> -> 0 `i `uc
+]
+"118
+[; ;SensorBoard_PCB.c: 118: char sensorEEADR = 0;
+[v _sensorEEADR `uc ~T0 @X0 1 e ]
+[i _sensorEEADR
+-> -> 0 `i `uc
+]
+"120
+[; ;SensorBoard_PCB.c: 120: char T2Count = 0;
+[v _T2Count `uc ~T0 @X0 1 e ]
+[i _T2Count
+-> -> 0 `i `uc
+]
+"121
+[; ;SensorBoard_PCB.c: 121: char T2Delay = 150;
+[v _T2Delay `uc ~T0 @X0 1 e ]
+[i _T2Delay
+-> -> 150 `i `uc
+]
+"122
+[; ;SensorBoard_PCB.c: 122: char T4Count = 0;
+[v _T4Count `uc ~T0 @X0 1 e ]
+[i _T4Count
+-> -> 0 `i `uc
+]
+"129
+[; ;SensorBoard_PCB.c: 129: char I2C1Registers[29];
+[v _I2C1Registers `uc ~T0 @X0 -> 29 `i e ]
+"130
+[; ;SensorBoard_PCB.c: 130: char I2C1RegIndex = 0;
+[v _I2C1RegIndex `uc ~T0 @X0 1 e ]
+[i _I2C1RegIndex
+-> -> 0 `i `uc
+]
+"131
+[; ;SensorBoard_PCB.c: 131: char I2C1Status = 0;
+[v _I2C1Status `uc ~T0 @X0 1 e ]
+[i _I2C1Status
+-> -> 0 `i `uc
+]
+"132
+[; ;SensorBoard_PCB.c: 132: char I2C1RxData;
+[v _I2C1RxData `uc ~T0 @X0 1 e ]
+"134
+[; ;SensorBoard_PCB.c: 134: char I2C2Data = 0;
+[v _I2C2Data `uc ~T0 @X0 1 e ]
+[i _I2C2Data
+-> -> 0 `i `uc
+]
+"135
+[; ;SensorBoard_PCB.c: 135: char ID[4];
+[v _ID `uc ~T0 @X0 -> 4 `i e ]
+"136
+[; ;SensorBoard_PCB.c: 136: char distData[3];
+[v _distData `uc ~T0 @X0 -> 3 `i e ]
+"148
+[; ;SensorBoard_PCB.c: 148: void PortsConfig(void)
+[v _PortsConfig `(v ~T0 @X0 1 ef ]
+"149
+[; ;SensorBoard_PCB.c: 149: {
+{
+[e :U _PortsConfig ]
+[f ]
+"150
+[; ;SensorBoard_PCB.c: 150:     PPSLOCK = 0x55;
+[e = _PPSLOCK -> -> 85 `i `uc ]
+"151
+[; ;SensorBoard_PCB.c: 151:     PPSLOCK = 0xAA;
+[e = _PPSLOCK -> -> 170 `i `uc ]
+"152
+[; ;SensorBoard_PCB.c: 152:     PPSLOCKbits.PPSLOCKED = 0;
+[e = . . _PPSLOCKbits 0 0 -> -> 0 `i `uc ]
+"154
+[; ;SensorBoard_PCB.c: 154:     RC0PPS = 0x10;
+[e = _RC0PPS -> -> 16 `i `uc ]
+"155
+[; ;SensorBoard_PCB.c: 155:     RC1PPS = 0x0F;
+[e = _RC1PPS -> -> 15 `i `uc ]
+"156
+[; ;SensorBoard_PCB.c: 156:     SSP1DATPPS = 0b00010000;
+[e = _SSP1DATPPS -> -> 16 `i `uc ]
+"157
+[; ;SensorBoard_PCB.c: 157:     SSP1CLKPPS = 0b00010001;
+[e = _SSP1CLKPPS -> -> 17 `i `uc ]
+"159
+[; ;SensorBoard_PCB.c: 159:     RC2PPS = 0x12;
+[e = _RC2PPS -> -> 18 `i `uc ]
+"160
+[; ;SensorBoard_PCB.c: 160:     RC3PPS = 0x11;
+[e = _RC3PPS -> -> 17 `i `uc ]
+"161
+[; ;SensorBoard_PCB.c: 161:     SSP2DATPPS = 0b00010010;
+[e = _SSP2DATPPS -> -> 18 `i `uc ]
+"162
+[; ;SensorBoard_PCB.c: 162:     SSP2CLKPPS = 0b00010011;
+[e = _SSP2CLKPPS -> -> 19 `i `uc ]
+"164
+[; ;SensorBoard_PCB.c: 164:     PPSLOCK = 0x55;
+[e = _PPSLOCK -> -> 85 `i `uc ]
+"165
+[; ;SensorBoard_PCB.c: 165:     PPSLOCK = 0xAA;
+[e = _PPSLOCK -> -> 170 `i `uc ]
+"166
+[; ;SensorBoard_PCB.c: 166:     PPSLOCKbits.PPSLOCKED = 1;
+[e = . . _PPSLOCKbits 0 0 -> -> 1 `i `uc ]
+"168
+[; ;SensorBoard_PCB.c: 168:     LATA = 0x00;
+[e = _LATA -> -> 0 `i `uc ]
+"169
+[; ;SensorBoard_PCB.c: 169:     LATB = 0x00;
+[e = _LATB -> -> 0 `i `uc ]
+"170
+[; ;SensorBoard_PCB.c: 170:     LATC = 0x00;
+[e = _LATC -> -> 0 `i `uc ]
+"172
+[; ;SensorBoard_PCB.c: 172:     ANSELA = 0x00;
+[e = _ANSELA -> -> 0 `i `uc ]
+"173
+[; ;SensorBoard_PCB.c: 173:     ANSELB = 0x00;
+[e = _ANSELB -> -> 0 `i `uc ]
+"174
+[; ;SensorBoard_PCB.c: 174:     ANSELC = 0x00;
+[e = _ANSELC -> -> 0 `i `uc ]
+"176
+[; ;SensorBoard_PCB.c: 176:     TRISA = 0x00;
+[e = _TRISA -> -> 0 `i `uc ]
+"177
+[; ;SensorBoard_PCB.c: 177:     TRISB = 0xFF;
+[e = _TRISB -> -> 255 `i `uc ]
+"178
+[; ;SensorBoard_PCB.c: 178:     TRISC = 0xFF;
+[e = _TRISC -> -> 255 `i `uc ]
+"179
+[; ;SensorBoard_PCB.c: 179: }
+[e :UE 1438 ]
+}
+"181
+[; ;SensorBoard_PCB.c: 181: void IOCConfig(void)
+[v _IOCConfig `(v ~T0 @X0 1 ef ]
+"182
+[; ;SensorBoard_PCB.c: 182: {
+{
+[e :U _IOCConfig ]
+[f ]
+"183
+[; ;SensorBoard_PCB.c: 183:     IOCCP = 0b00110000;
+[e = _IOCCP -> -> 48 `i `uc ]
+"184
+[; ;SensorBoard_PCB.c: 184:     IOCCN = 0b00000000;
+[e = _IOCCN -> -> 0 `i `uc ]
+"186
+[; ;SensorBoard_PCB.c: 186:     PIR0bits.IOCIF = 0;
+[e = . . _PIR0bits 0 4 -> -> 0 `i `uc ]
+"187
+[; ;SensorBoard_PCB.c: 187:     PIE0bits.IOCIE = 1;
+[e = . . _PIE0bits 0 4 -> -> 1 `i `uc ]
+"188
+[; ;SensorBoard_PCB.c: 188: }
+[e :UE 1439 ]
+}
+"190
+[; ;SensorBoard_PCB.c: 190: void TMR2Config(void)
+[v _TMR2Config `(v ~T0 @X0 1 ef ]
+"191
+[; ;SensorBoard_PCB.c: 191: {
+{
+[e :U _TMR2Config ]
+[f ]
+"193
+[; ;SensorBoard_PCB.c: 193:     T2CLKbits.T2CS = 0b0001;
+[e = . . _T2CLKbits 2 0 -> -> 1 `i `uc ]
+"194
+[; ;SensorBoard_PCB.c: 194:     T2CONbits.T2CKPS = 0b111;
+[e = . . _T2CONbits 1 1 -> -> 7 `i `uc ]
+"195
+[; ;SensorBoard_PCB.c: 195:     T2CONbits.T2OUTPS = 0b1111;
+[e = . . _T2CONbits 1 0 -> -> 15 `i `uc ]
+"196
+[; ;SensorBoard_PCB.c: 196:     T2PR = 250;
+[e = _T2PR -> -> 250 `i `uc ]
+"198
+[; ;SensorBoard_PCB.c: 198:     T2HLT = 0x00;
+[e = _T2HLT -> -> 0 `i `uc ]
+"199
+[; ;SensorBoard_PCB.c: 199:     T2RST = 0xFF;
+[e = _T2RST -> -> 255 `i `uc ]
+"201
+[; ;SensorBoard_PCB.c: 201:     T2CONbits.T2ON = 1;
+[e = . . _T2CONbits 1 2 -> -> 1 `i `uc ]
+"203
+[; ;SensorBoard_PCB.c: 203:     PIR4bits.TMR2IF = 0;
+[e = . . _PIR4bits 0 1 -> -> 0 `i `uc ]
+"204
+[; ;SensorBoard_PCB.c: 204:     PIE4bits.TMR2IE = 1;
+[e = . . _PIE4bits 0 1 -> -> 1 `i `uc ]
+"205
+[; ;SensorBoard_PCB.c: 205: }
+[e :UE 1440 ]
+}
+"207
+[; ;SensorBoard_PCB.c: 207: void TMR4Config(void)
+[v _TMR4Config `(v ~T0 @X0 1 ef ]
+"208
+[; ;SensorBoard_PCB.c: 208: {
+{
+[e :U _TMR4Config ]
+[f ]
+"210
+[; ;SensorBoard_PCB.c: 210:     T4CLKbits.T4CS = 0b0001;
+[e = . . _T4CLKbits 2 0 -> -> 1 `i `uc ]
+"211
+[; ;SensorBoard_PCB.c: 211:     T4CONbits.T4CKPS = 0b111;
+[e = . . _T4CONbits 1 1 -> -> 7 `i `uc ]
+"212
+[; ;SensorBoard_PCB.c: 212:     T4CONbits.T4OUTPS = 0b1111;
+[e = . . _T4CONbits 1 0 -> -> 15 `i `uc ]
+"213
+[; ;SensorBoard_PCB.c: 213:     T4PR = 250;
+[e = _T4PR -> -> 250 `i `uc ]
+"215
+[; ;SensorBoard_PCB.c: 215:     T4HLT = 0x00;
+[e = _T4HLT -> -> 0 `i `uc ]
+"216
+[; ;SensorBoard_PCB.c: 216:     T4RST = 0xFF;
+[e = _T4RST -> -> 255 `i `uc ]
+"218
+[; ;SensorBoard_PCB.c: 218:     PIR4bits.TMR4IF = 0;
+[e = . . _PIR4bits 0 3 -> -> 0 `i `uc ]
+"219
+[; ;SensorBoard_PCB.c: 219:     PIE4bits.TMR4IE = 1;
+[e = . . _PIE4bits 0 3 -> -> 1 `i `uc ]
+"220
+[; ;SensorBoard_PCB.c: 220:     T4CONbits.T4ON = 1;
+[e = . . _T4CONbits 1 2 -> -> 1 `i `uc ]
+"221
+[; ;SensorBoard_PCB.c: 221: }
+[e :UE 1441 ]
+}
+"223
+[; ;SensorBoard_PCB.c: 223: void IntConfig(void)
+[v _IntConfig `(v ~T0 @X0 1 ef ]
+"224
+[; ;SensorBoard_PCB.c: 224: {
+{
+[e :U _IntConfig ]
+[f ]
+"225
+[; ;SensorBoard_PCB.c: 225:     PIR1 = 0;
+[e = _PIR1 -> -> 0 `i `uc ]
+"226
+[; ;SensorBoard_PCB.c: 226:     PIR2 = 0;
+[e = _PIR2 -> -> 0 `i `uc ]
+"227
+[; ;SensorBoard_PCB.c: 227:     PIR3 = 0;
+[e = _PIR3 -> -> 0 `i `uc ]
+"228
+[; ;SensorBoard_PCB.c: 228:     PIR4 = 0;
+[e = _PIR4 -> -> 0 `i `uc ]
+"229
+[; ;SensorBoard_PCB.c: 229:     PIR5 = 0;
+[e = _PIR5 -> -> 0 `i `uc ]
+"231
+[; ;SensorBoard_PCB.c: 231:     INTCONbits.IPEN = 0;
+[e = . . _INTCONbits 0 4 -> -> 0 `i `uc ]
+"232
+[; ;SensorBoard_PCB.c: 232:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 1 -> -> 1 `i `uc ]
+"233
+[; ;SensorBoard_PCB.c: 233:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 2 -> -> 1 `i `uc ]
+"234
+[; ;SensorBoard_PCB.c: 234: }
+[e :UE 1442 ]
+}
+"236
+[; ;SensorBoard_PCB.c: 236: void SSP1Config (void)
+[v _SSP1Config `(v ~T0 @X0 1 ef ]
+"237
+[; ;SensorBoard_PCB.c: 237: {
+{
+[e :U _SSP1Config ]
+[f ]
+"238
+[; ;SensorBoard_PCB.c: 238:     char slaveAdd = 0;
+[v _slaveAdd `uc ~T0 @X0 1 a ]
+[e = _slaveAdd -> -> 0 `i `uc ]
+"242
+[; ;SensorBoard_PCB.c: 242:     slaveAdd = (~(PORTB << 1)) & 0b01111110;
+[e = _slaveAdd -> & ~ << -> _PORTB `i -> 1 `i -> 126 `i `uc ]
+"243
+[; ;SensorBoard_PCB.c: 243:     if(slaveAdd < 0x10) {SSP1ADD = 0x10;} else {SSP1ADD = slaveAdd;}
+[e $ ! < -> _slaveAdd `i -> 16 `i 1444  ]
+{
+[e = _SSP1ADD -> -> 16 `i `uc ]
+}
+[e $U 1445  ]
+[e :U 1444 ]
+{
+[e = _SSP1ADD -> _slaveAdd `uc ]
+}
+[e :U 1445 ]
+"244
+[; ;SensorBoard_PCB.c: 244:     SSP1MSK = 0xFF;
+[e = _SSP1MSK -> -> 255 `i `uc ]
+"246
+[; ;SensorBoard_PCB.c: 246:     SSP1CON1bits.CKP = 1;
+[e = . . _SSP1CON1bits 0 1 -> -> 1 `i `uc ]
+"247
+[; ;SensorBoard_PCB.c: 247:     SSP1CON1bits.SSPM = 0b0110;
+[e = . . _SSP1CON1bits 0 0 -> -> 6 `i `uc ]
+"248
+[; ;SensorBoard_PCB.c: 248:     SSP1CON2bits.GCEN = 0;
+[e = . . _SSP1CON2bits 0 7 -> -> 0 `i `uc ]
+"250
+[; ;SensorBoard_PCB.c: 250:     SSP1STATbits.SMP = 0;
+[e = . . _SSP1STATbits 2 7 -> -> 0 `i `uc ]
+"251
+[; ;SensorBoard_PCB.c: 251:     SSP1STATbits.CKE = 0;
+[e = . . _SSP1STATbits 2 6 -> -> 0 `i `uc ]
+"253
+[; ;SensorBoard_PCB.c: 253:     SSP1MSK = 0xFF;
+[e = _SSP1MSK -> -> 255 `i `uc ]
+"255
+[; ;SensorBoard_PCB.c: 255:     SSP1CON3bits.PCIE = 0;
+[e = . . _SSP1CON3bits 0 6 -> -> 0 `i `uc ]
+"256
+[; ;SensorBoard_PCB.c: 256:     SSP1CON3bits.SCIE = 0;
+[e = . . _SSP1CON3bits 0 5 -> -> 0 `i `uc ]
+"258
+[; ;SensorBoard_PCB.c: 258:     PIR3bits.SSP1IF = 0;
+[e = . . _PIR3bits 0 0 -> -> 0 `i `uc ]
+"259
+[; ;SensorBoard_PCB.c: 259:     PIE3bits.SSP1IE = 1;
+[e = . . _PIE3bits 0 0 -> -> 1 `i `uc ]
+"261
+[; ;SensorBoard_PCB.c: 261:     SSP1CON1bits.SSPEN = 1;
+[e = . . _SSP1CON1bits 0 2 -> -> 1 `i `uc ]
+"262
+[; ;SensorBoard_PCB.c: 262: }
+[e :UE 1443 ]
+}
+"264
+[; ;SensorBoard_PCB.c: 264: void SSP2Config (void)
+[v _SSP2Config `(v ~T0 @X0 1 ef ]
+"265
+[; ;SensorBoard_PCB.c: 265: {
+{
+[e :U _SSP2Config ]
+[f ]
+"267
+[; ;SensorBoard_PCB.c: 267:     SSP2ADD = 39;
+[e = _SSP2ADD -> -> 39 `i `uc ]
+"268
+[; ;SensorBoard_PCB.c: 268:     SSP2CON1bits.SSPM = 0b1000;
+[e = . . _SSP2CON1bits 0 0 -> -> 8 `i `uc ]
+"269
+[; ;SensorBoard_PCB.c: 269:     SSP2STATbits.SMP = 1;
+[e = . . _SSP2STATbits 2 7 -> -> 1 `i `uc ]
+"270
+[; ;SensorBoard_PCB.c: 270:     SSP2STATbits.CKE = 0;
+[e = . . _SSP2STATbits 2 6 -> -> 0 `i `uc ]
+"272
+[; ;SensorBoard_PCB.c: 272:     SSP2CON1bits.SSPEN = 1;
+[e = . . _SSP2CON1bits 0 2 -> -> 1 `i `uc ]
+"273
+[; ;SensorBoard_PCB.c: 273: }
+[e :UE 1446 ]
+}
+"275
+[; ;SensorBoard_PCB.c: 275: void NVMConfig(void)
+[v _NVMConfig `(v ~T0 @X0 1 ef ]
+"276
+[; ;SensorBoard_PCB.c: 276: {
+{
+[e :U _NVMConfig ]
+[f ]
+"277
+[; ;SensorBoard_PCB.c: 277:     NVMCON1bits.NVMREG = 0b00;
+[e = . . _NVMCON1bits 0 6 -> -> 0 `i `uc ]
+"278
+[; ;SensorBoard_PCB.c: 278:     NVMCON1bits.WREN = 0;
+[e = . . _NVMCON1bits 0 2 -> -> 0 `i `uc ]
+"279
+[; ;SensorBoard_PCB.c: 279: }
+[e :UE 1447 ]
+}
+"285
+[; ;SensorBoard_PCB.c: 285: void WriteToEEPROM(char address, char val)
+[v _WriteToEEPROM `(v ~T0 @X0 1 ef2`uc`uc ]
+"286
+[; ;SensorBoard_PCB.c: 286: {
+{
+[e :U _WriteToEEPROM ]
+"285
+[; ;SensorBoard_PCB.c: 285: void WriteToEEPROM(char address, char val)
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _val `uc ~T0 @X0 1 r2 ]
+"286
+[; ;SensorBoard_PCB.c: 286: {
+[f ]
+"287
+[; ;SensorBoard_PCB.c: 287:     INTCONbits.GIE = 0;
+[e = . . _INTCONbits 1 2 -> -> 0 `i `uc ]
+"289
+[; ;SensorBoard_PCB.c: 289:     NVMADR = address;
+[e = _NVMADR -> _address `us ]
+"290
+[; ;SensorBoard_PCB.c: 290:     NVMDAT = val;
+[e = _NVMDAT -> _val `uc ]
+"292
+[; ;SensorBoard_PCB.c: 292:     NVMCON1bits.WREN = 1;
+[e = . . _NVMCON1bits 0 2 -> -> 1 `i `uc ]
+"294
+[; ;SensorBoard_PCB.c: 294:     NVMCON2 = 0x55;
+[e = _NVMCON2 -> -> 85 `i `uc ]
+"295
+[; ;SensorBoard_PCB.c: 295:     NVMCON2 = 0xAA;
+[e = _NVMCON2 -> -> 170 `i `uc ]
+"296
+[; ;SensorBoard_PCB.c: 296:     NVMCON1bits.WR = 1;
+[e = . . _NVMCON1bits 0 1 -> -> 1 `i `uc ]
+"298
+[; ;SensorBoard_PCB.c: 298:     while(NVMCON1bits.WR == 1) { }
+[e $U 1449  ]
+[e :U 1450 ]
+{
+}
+[e :U 1449 ]
+[e $ == -> . . _NVMCON1bits 0 1 `i -> 1 `i 1450  ]
+[e :U 1451 ]
+"300
+[; ;SensorBoard_PCB.c: 300:     NVMCON1bits.WREN = 0;
+[e = . . _NVMCON1bits 0 2 -> -> 0 `i `uc ]
+"301
+[; ;SensorBoard_PCB.c: 301:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 2 -> -> 1 `i `uc ]
+"302
+[; ;SensorBoard_PCB.c: 302: }
+[e :UE 1448 ]
+}
+"304
+[; ;SensorBoard_PCB.c: 304: char ReadEEPROM(char address)
+[v _ReadEEPROM `(uc ~T0 @X0 1 ef1`uc ]
+"305
+[; ;SensorBoard_PCB.c: 305: {
+{
+[e :U _ReadEEPROM ]
+"304
+[; ;SensorBoard_PCB.c: 304: char ReadEEPROM(char address)
+[v _address `uc ~T0 @X0 1 r1 ]
+"305
+[; ;SensorBoard_PCB.c: 305: {
+[f ]
+"306
+[; ;SensorBoard_PCB.c: 306:     NVMADR = address;
+[e = _NVMADR -> _address `us ]
+"307
+[; ;SensorBoard_PCB.c: 307:     NVMCON1bits.RD = 1;
+[e = . . _NVMCON1bits 0 0 -> -> 1 `i `uc ]
+"308
+[; ;SensorBoard_PCB.c: 308:     return NVMDAT;
+[e ) -> _NVMDAT `uc ]
+[e $UE 1452  ]
+"309
+[; ;SensorBoard_PCB.c: 309: }
+[e :UE 1452 ]
+}
+"311
+[; ;SensorBoard_PCB.c: 311: char I2C2TransmitAddress(char addr)
+[v _I2C2TransmitAddress `(uc ~T0 @X0 1 ef1`uc ]
+"312
+[; ;SensorBoard_PCB.c: 312: {
+{
+[e :U _I2C2TransmitAddress ]
+"311
+[; ;SensorBoard_PCB.c: 311: char I2C2TransmitAddress(char addr)
+[v _addr `uc ~T0 @X0 1 r1 ]
+"312
+[; ;SensorBoard_PCB.c: 312: {
+[f ]
+"313
+[; ;SensorBoard_PCB.c: 313:     SSP2CON2bits.SEN = 1;
+[e = . . _SSP2CON2bits 0 0 -> -> 1 `i `uc ]
+"314
+[; ;SensorBoard_PCB.c: 314:     while(SSP2CON2bits.SEN == 1) { }
+[e $U 1454  ]
+[e :U 1455 ]
+{
+}
+[e :U 1454 ]
+[e $ == -> . . _SSP2CON2bits 0 0 `i -> 1 `i 1455  ]
+[e :U 1456 ]
+"316
+[; ;SensorBoard_PCB.c: 316:     SSP2BUF = addr;
+[e = _SSP2BUF -> _addr `uc ]
+"317
+[; ;SensorBoard_PCB.c: 317:     while(SSP2STATbits.RW == 1) { }
+[e $U 1457  ]
+[e :U 1458 ]
+{
+}
+[e :U 1457 ]
+[e $ == -> . . _SSP2STATbits 11 1 `i -> 1 `i 1458  ]
+[e :U 1459 ]
+"319
+[; ;SensorBoard_PCB.c: 319:     if(SSP2CON2bits.ACKSTAT == 1)
+[e $ ! == -> . . _SSP2CON2bits 0 6 `i -> 1 `i 1460  ]
+"320
+[; ;SensorBoard_PCB.c: 320:     {
+{
+"321
+[; ;SensorBoard_PCB.c: 321:         SSP2CON2bits.PEN = 1;
+[e = . . _SSP2CON2bits 0 2 -> -> 1 `i `uc ]
+"322
+[; ;SensorBoard_PCB.c: 322:         while(SSP2CON2bits.PEN == 1) { }
+[e $U 1461  ]
+[e :U 1462 ]
+{
+}
+[e :U 1461 ]
+[e $ == -> . . _SSP2CON2bits 0 2 `i -> 1 `i 1462  ]
+[e :U 1463 ]
+"323
+[; ;SensorBoard_PCB.c: 323:         return 0x00;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1453  ]
+"324
+[; ;SensorBoard_PCB.c: 324:     }
+}
+[e :U 1460 ]
+"326
+[; ;SensorBoard_PCB.c: 326:     return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1453  ]
+"327
+[; ;SensorBoard_PCB.c: 327: }
+[e :UE 1453 ]
+}
+"329
+[; ;SensorBoard_PCB.c: 329: char I2C2TransmitData (char data)
+[v _I2C2TransmitData `(uc ~T0 @X0 1 ef1`uc ]
+"330
+[; ;SensorBoard_PCB.c: 330: {
+{
+[e :U _I2C2TransmitData ]
+"329
+[; ;SensorBoard_PCB.c: 329: char I2C2TransmitData (char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"330
+[; ;SensorBoard_PCB.c: 330: {
+[f ]
+"331
+[; ;SensorBoard_PCB.c: 331:     SSP2BUF = data;
+[e = _SSP2BUF -> _data `uc ]
+"332
+[; ;SensorBoard_PCB.c: 332:     while(SSP2STATbits.RW == 1) { }
+[e $U 1465  ]
+[e :U 1466 ]
+{
+}
+[e :U 1465 ]
+[e $ == -> . . _SSP2STATbits 11 1 `i -> 1 `i 1466  ]
+[e :U 1467 ]
+"334
+[; ;SensorBoard_PCB.c: 334:     if(SSP2CON2bits.ACKSTAT == 1)
+[e $ ! == -> . . _SSP2CON2bits 0 6 `i -> 1 `i 1468  ]
+"335
+[; ;SensorBoard_PCB.c: 335:     {
+{
+"336
+[; ;SensorBoard_PCB.c: 336:         SSP2CON2bits.PEN = 1;
+[e = . . _SSP2CON2bits 0 2 -> -> 1 `i `uc ]
+"337
+[; ;SensorBoard_PCB.c: 337:         while(SSP2CON2bits.PEN == 1) { }
+[e $U 1469  ]
+[e :U 1470 ]
+{
+}
+[e :U 1469 ]
+[e $ == -> . . _SSP2CON2bits 0 2 `i -> 1 `i 1470  ]
+[e :U 1471 ]
+"338
+[; ;SensorBoard_PCB.c: 338:         return 0x00;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1464  ]
+"339
+[; ;SensorBoard_PCB.c: 339:     }
+}
+[e :U 1468 ]
+"341
+[; ;SensorBoard_PCB.c: 341:     return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1464  ]
+"342
+[; ;SensorBoard_PCB.c: 342: }
+[e :UE 1464 ]
+}
+"344
+[; ;SensorBoard_PCB.c: 344: char I2C2RequestData (char function, char readAddr)
+[v _I2C2RequestData `(uc ~T0 @X0 1 ef2`uc`uc ]
+"345
+[; ;SensorBoard_PCB.c: 345: {
+{
+[e :U _I2C2RequestData ]
+"344
+[; ;SensorBoard_PCB.c: 344: char I2C2RequestData (char function, char readAddr)
+[v _function `uc ~T0 @X0 1 r1 ]
+[v _readAddr `uc ~T0 @X0 1 r2 ]
+"345
+[; ;SensorBoard_PCB.c: 345: {
+[f ]
+"346
+[; ;SensorBoard_PCB.c: 346:     switch (function)
+[e $U 1474  ]
+"347
+[; ;SensorBoard_PCB.c: 347:     {
+{
+"352
+[; ;SensorBoard_PCB.c: 352:         case 1:
+[e :U 1475 ]
+"353
+[; ;SensorBoard_PCB.c: 353:             SSP2CON2bits.SEN = 1;
+[e = . . _SSP2CON2bits 0 0 -> -> 1 `i `uc ]
+"354
+[; ;SensorBoard_PCB.c: 354:             while (SSP2CON2bits.SEN == 1) { }
+[e $U 1476  ]
+[e :U 1477 ]
+{
+}
+[e :U 1476 ]
+[e $ == -> . . _SSP2CON2bits 0 0 `i -> 1 `i 1477  ]
+[e :U 1478 ]
+"356
+[; ;SensorBoard_PCB.c: 356:             SSP2BUF = readAddr;
+[e = _SSP2BUF -> _readAddr `uc ]
+"357
+[; ;SensorBoard_PCB.c: 357:             while(SSP2STATbits.RW == 1) { }
+[e $U 1479  ]
+[e :U 1480 ]
+{
+}
+[e :U 1479 ]
+[e $ == -> . . _SSP2STATbits 11 1 `i -> 1 `i 1480  ]
+[e :U 1481 ]
+"359
+[; ;SensorBoard_PCB.c: 359:             if(SSP2CON2bits.ACKSTAT == 1)
+[e $ ! == -> . . _SSP2CON2bits 0 6 `i -> 1 `i 1482  ]
+"360
+[; ;SensorBoard_PCB.c: 360:             {
+{
+"361
+[; ;SensorBoard_PCB.c: 361:                 SSP2CON2bits.PEN = 1;
+[e = . . _SSP2CON2bits 0 2 -> -> 1 `i `uc ]
+"362
+[; ;SensorBoard_PCB.c: 362:                 while(SSP2CON2bits.PEN == 1) { }
+[e $U 1483  ]
+[e :U 1484 ]
+{
+}
+[e :U 1483 ]
+[e $ == -> . . _SSP2CON2bits 0 2 `i -> 1 `i 1484  ]
+[e :U 1485 ]
+"363
+[; ;SensorBoard_PCB.c: 363:                 return 0x00;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1472  ]
+"364
+[; ;SensorBoard_PCB.c: 364:             }
+}
+[e :U 1482 ]
+"366
+[; ;SensorBoard_PCB.c: 366:             SSP2CON2bits.RCEN = 1;
+[e = . . _SSP2CON2bits 0 3 -> -> 1 `i `uc ]
+"367
+[; ;SensorBoard_PCB.c: 367:             while (SSP2CON2bits.RCEN == 1) { }
+[e $U 1486  ]
+[e :U 1487 ]
+{
+}
+[e :U 1486 ]
+[e $ == -> . . _SSP2CON2bits 0 3 `i -> 1 `i 1487  ]
+[e :U 1488 ]
+"369
+[; ;SensorBoard_PCB.c: 369:             I2C2Data = SSP2BUF;
+[e = _I2C2Data -> _SSP2BUF `uc ]
+"370
+[; ;SensorBoard_PCB.c: 370:             SSP2CON2bits.ACKDT = 0;
+[e = . . _SSP2CON2bits 0 5 -> -> 0 `i `uc ]
+"371
+[; ;SensorBoard_PCB.c: 371:             SSP2CON2bits.ACKEN = 1;
+[e = . . _SSP2CON2bits 0 4 -> -> 1 `i `uc ]
+"372
+[; ;SensorBoard_PCB.c: 372:             while(SSP2CON2bits.ACKEN == 1) { }
+[e $U 1489  ]
+[e :U 1490 ]
+{
+}
+[e :U 1489 ]
+[e $ == -> . . _SSP2CON2bits 0 4 `i -> 1 `i 1490  ]
+[e :U 1491 ]
+"374
+[; ;SensorBoard_PCB.c: 374:             return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1472  ]
+"375
+[; ;SensorBoard_PCB.c: 375:             break;
+[e $U 1473  ]
+"376
+[; ;SensorBoard_PCB.c: 376:         case 2:
+[e :U 1492 ]
+"377
+[; ;SensorBoard_PCB.c: 377:             SSP2CON2bits.RCEN = 1;
+[e = . . _SSP2CON2bits 0 3 -> -> 1 `i `uc ]
+"378
+[; ;SensorBoard_PCB.c: 378:             while (SSP2CON2bits.RCEN == 1) { }
+[e $U 1493  ]
+[e :U 1494 ]
+{
+}
+[e :U 1493 ]
+[e $ == -> . . _SSP2CON2bits 0 3 `i -> 1 `i 1494  ]
+[e :U 1495 ]
+"380
+[; ;SensorBoard_PCB.c: 380:             I2C2Data = SSP2BUF;
+[e = _I2C2Data -> _SSP2BUF `uc ]
+"381
+[; ;SensorBoard_PCB.c: 381:             SSP2CON2bits.ACKDT = 0;
+[e = . . _SSP2CON2bits 0 5 -> -> 0 `i `uc ]
+"382
+[; ;SensorBoard_PCB.c: 382:             SSP2CON2bits.ACKEN = 1;
+[e = . . _SSP2CON2bits 0 4 -> -> 1 `i `uc ]
+"383
+[; ;SensorBoard_PCB.c: 383:             while(SSP2CON2bits.ACKEN == 1) { }
+[e $U 1496  ]
+[e :U 1497 ]
+{
+}
+[e :U 1496 ]
+[e $ == -> . . _SSP2CON2bits 0 4 `i -> 1 `i 1497  ]
+[e :U 1498 ]
+"385
+[; ;SensorBoard_PCB.c: 385:             return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1472  ]
+"386
+[; ;SensorBoard_PCB.c: 386:             break;
+[e $U 1473  ]
+"387
+[; ;SensorBoard_PCB.c: 387:         case 3:
+[e :U 1499 ]
+"388
+[; ;SensorBoard_PCB.c: 388:             SSP2CON2bits.RCEN = 1;
+[e = . . _SSP2CON2bits 0 3 -> -> 1 `i `uc ]
+"389
+[; ;SensorBoard_PCB.c: 389:             while (SSP2CON2bits.RCEN == 1) { }
+[e $U 1500  ]
+[e :U 1501 ]
+{
+}
+[e :U 1500 ]
+[e $ == -> . . _SSP2CON2bits 0 3 `i -> 1 `i 1501  ]
+[e :U 1502 ]
+"391
+[; ;SensorBoard_PCB.c: 391:             I2C2Data = SSP2BUF;
+[e = _I2C2Data -> _SSP2BUF `uc ]
+"392
+[; ;SensorBoard_PCB.c: 392:             SSP2CON2bits.ACKDT = 1;
+[e = . . _SSP2CON2bits 0 5 -> -> 1 `i `uc ]
+"393
+[; ;SensorBoard_PCB.c: 393:             SSP2CON2bits.ACKEN = 1;
+[e = . . _SSP2CON2bits 0 4 -> -> 1 `i `uc ]
+"394
+[; ;SensorBoard_PCB.c: 394:             while(SSP2CON2bits.ACKEN == 1) { }
+[e $U 1503  ]
+[e :U 1504 ]
+{
+}
+[e :U 1503 ]
+[e $ == -> . . _SSP2CON2bits 0 4 `i -> 1 `i 1504  ]
+[e :U 1505 ]
+"395
+[; ;SensorBoard_PCB.c: 395:             SSP2CON2bits.PEN = 1;
+[e = . . _SSP2CON2bits 0 2 -> -> 1 `i `uc ]
+"396
+[; ;SensorBoard_PCB.c: 396:             while(SSP2CON2bits.PEN == 1) { }
+[e $U 1506  ]
+[e :U 1507 ]
+{
+}
+[e :U 1506 ]
+[e $ == -> . . _SSP2CON2bits 0 2 `i -> 1 `i 1507  ]
+[e :U 1508 ]
+"398
+[; ;SensorBoard_PCB.c: 398:             return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1472  ]
+"399
+[; ;SensorBoard_PCB.c: 399:             break;
+[e $U 1473  ]
+"400
+[; ;SensorBoard_PCB.c: 400:         default:
+[e :U 1509 ]
+"401
+[; ;SensorBoard_PCB.c: 401:             return 0x00;
+[e ) -> -> 0 `i `uc ]
+[e $UE 1472  ]
+"402
+[; ;SensorBoard_PCB.c: 402:             break;
+[e $U 1473  ]
+"403
+[; ;SensorBoard_PCB.c: 403:     }
+}
+[e $U 1473  ]
+[e :U 1474 ]
+[e [\ -> _function `i , $ -> 1 `i 1475
+ , $ -> 2 `i 1492
+ , $ -> 3 `i 1499
+ 1509 ]
+[e :U 1473 ]
+"404
+[; ;SensorBoard_PCB.c: 404: }
+[e :UE 1472 ]
+}
+"406
+[; ;SensorBoard_PCB.c: 406: void I2C2Stop(void)
+[v _I2C2Stop `(v ~T0 @X0 1 ef ]
+"407
+[; ;SensorBoard_PCB.c: 407: {
+{
+[e :U _I2C2Stop ]
+[f ]
+"408
+[; ;SensorBoard_PCB.c: 408:     SSP2CON2bits.PEN = 1;
+[e = . . _SSP2CON2bits 0 2 -> -> 1 `i `uc ]
+"409
+[; ;SensorBoard_PCB.c: 409:     while(SSP2CON2bits.PEN == 1) { }
+[e $U 1511  ]
+[e :U 1512 ]
+{
+}
+[e :U 1511 ]
+[e $ == -> . . _SSP2CON2bits 0 2 `i -> 1 `i 1512  ]
+[e :U 1513 ]
+"410
+[; ;SensorBoard_PCB.c: 410: }
+[e :UE 1510 ]
+}
+"412
+[; ;SensorBoard_PCB.c: 412: char I2C2Scan (void)
+[v _I2C2Scan `(uc ~T0 @X0 1 ef ]
+"413
+[; ;SensorBoard_PCB.c: 413: {
+{
+[e :U _I2C2Scan ]
+[f ]
+"416
+[; ;SensorBoard_PCB.c: 416:     scanAddress = 0x10;
+[e = _scanAddress -> -> 16 `i `uc ]
+"418
+[; ;SensorBoard_PCB.c: 418:     while(1)
+[e :U 1516 ]
+"419
+[; ;SensorBoard_PCB.c: 419:     {
+{
+"420
+[; ;SensorBoard_PCB.c: 420:         if(I2C2TransmitAddress(scanAddress) == 0xFF) {I2C2Stop(); return scanAddress;} else {scanAddress += 2;}
+[e $ ! == -> ( _I2C2TransmitAddress (1 _scanAddress `i -> 255 `i 1518  ]
+{
+[e ( _I2C2Stop ..  ]
+[e ) _scanAddress ]
+[e $UE 1514  ]
+}
+[e $U 1519  ]
+[e :U 1518 ]
+{
+[e =+ _scanAddress -> -> 2 `i `uc ]
+}
+[e :U 1519 ]
+"421
+[; ;SensorBoard_PCB.c: 421:         if(scanAddress >= 0b10000000) {return 0x00;}
+[e $ ! >= -> _scanAddress `i -> 128 `i 1520  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1514  ]
+}
+[e :U 1520 ]
+"422
+[; ;SensorBoard_PCB.c: 422:     }
+}
+[e :U 1515 ]
+[e $U 1516  ]
+[e :U 1517 ]
+"423
+[; ;SensorBoard_PCB.c: 423: }
+[e :UE 1514 ]
+}
+"425
+[; ;SensorBoard_PCB.c: 425: char SaveSensor(void)
+[v _SaveSensor `(uc ~T0 @X0 1 ef ]
+"426
+[; ;SensorBoard_PCB.c: 426: {
+{
+[e :U _SaveSensor ]
+[f ]
+"428
+[; ;SensorBoard_PCB.c: 428:     sensorEEADR = 0x10;
+[e = _sensorEEADR -> -> 16 `i `uc ]
+"429
+[; ;SensorBoard_PCB.c: 429:     while (ReadEEPROM(sensorEEADR) != 0x00)
+[e $U 1522  ]
+[e :U 1523 ]
+"430
+[; ;SensorBoard_PCB.c: 430:     {
+{
+"431
+[; ;SensorBoard_PCB.c: 431:         sensorEEADR += 2;
+[e =+ _sensorEEADR -> -> 2 `i `uc ]
+"432
+[; ;SensorBoard_PCB.c: 432:         if(sensorEEADR >= 0x20) {return 0x00;}
+[e $ ! >= -> _sensorEEADR `i -> 32 `i 1525  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1525 ]
+"433
+[; ;SensorBoard_PCB.c: 433:     }
+}
+[e :U 1522 ]
+"429
+[; ;SensorBoard_PCB.c: 429:     while (ReadEEPROM(sensorEEADR) != 0x00)
+[e $ != -> ( _ReadEEPROM (1 _sensorEEADR `i -> 0 `i 1523  ]
+[e :U 1524 ]
+"436
+[; ;SensorBoard_PCB.c: 436:     if(I2C2TransmitAddress(scanAddress) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitAddress (1 _scanAddress `i -> 0 `i 1526  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1526 ]
+"437
+[; ;SensorBoard_PCB.c: 437:     if(I2C2TransmitData(0x3C) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> -> 60 `i `uc `i -> 0 `i 1527  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1527 ]
+"438
+[; ;SensorBoard_PCB.c: 438:     I2C2Stop();
+[e ( _I2C2Stop ..  ]
+"441
+[; ;SensorBoard_PCB.c: 441:     if(I2C2RequestData(1, scanAddress | 0x01) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 1 `i `uc -> | -> _scanAddress `i -> 1 `i `uc `i -> 0 `i 1528  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1528 ]
+"442
+[; ;SensorBoard_PCB.c: 442:     ID[0] = I2C2Data;
+[e = *U + &U _ID * -> -> -> 0 `i `ui `ux -> -> # *U &U _ID `ui `ux _I2C2Data ]
+"443
+[; ;SensorBoard_PCB.c: 443:     if(I2C2RequestData(2, 0x00) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 2 `i `uc -> -> 0 `i `uc `i -> 0 `i 1529  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1529 ]
+"444
+[; ;SensorBoard_PCB.c: 444:     ID[1] = I2C2Data;
+[e = *U + &U _ID * -> -> -> 1 `i `ui `ux -> -> # *U &U _ID `ui `ux _I2C2Data ]
+"445
+[; ;SensorBoard_PCB.c: 445:     if(I2C2RequestData(2, 0x00) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 2 `i `uc -> -> 0 `i `uc `i -> 0 `i 1530  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1530 ]
+"446
+[; ;SensorBoard_PCB.c: 446:     ID[2] = I2C2Data;
+[e = *U + &U _ID * -> -> -> 2 `i `ui `ux -> -> # *U &U _ID `ui `ux _I2C2Data ]
+"447
+[; ;SensorBoard_PCB.c: 447:     if(I2C2RequestData(3, 0x00) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 3 `i `uc -> -> 0 `i `uc `i -> 0 `i 1531  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1531 ]
+"448
+[; ;SensorBoard_PCB.c: 448:     ID[3] = I2C2Data;
+[e = *U + &U _ID * -> -> -> 3 `i `ui `ux -> -> # *U &U _ID `ui `ux _I2C2Data ]
+"451
+[; ;SensorBoard_PCB.c: 451:     if(I2C2TransmitAddress(scanAddress) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitAddress (1 _scanAddress `i -> 0 `i 1532  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1532 ]
+"452
+[; ;SensorBoard_PCB.c: 452:     if(I2C2TransmitData(0x22) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> -> 34 `i `uc `i -> 0 `i 1533  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1533 ]
+"453
+[; ;SensorBoard_PCB.c: 453:     if(I2C2TransmitData(sensorEEADR >> 1) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> >> -> _sensorEEADR `i -> 1 `i `uc `i -> 0 `i 1534  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1534 ]
+"454
+[; ;SensorBoard_PCB.c: 454:     I2C2Stop();
+[e ( _I2C2Stop ..  ]
+"457
+[; ;SensorBoard_PCB.c: 457:     if(ID[0] == 'L' && ID[1] == 'U' && ID[2] == 'N' && ID[3] == 'A')
+[e $ ! && && && == -> *U + &U _ID * -> -> -> 0 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 76 `ui == -> *U + &U _ID * -> -> -> 1 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 85 `ui == -> *U + &U _ID * -> -> -> 2 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 78 `ui == -> *U + &U _ID * -> -> -> 3 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 65 `ui 1535  ]
+"458
+[; ;SensorBoard_PCB.c: 458:     {
+{
+"460
+[; ;SensorBoard_PCB.c: 460:         WriteToEEPROM(sensorEEADR, 'L');
+[e ( _WriteToEEPROM (2 , _sensorEEADR -> -> 76 `ui `uc ]
+"461
+[; ;SensorBoard_PCB.c: 461:         WriteToEEPROM(sensorEEADR | 0x01, 1);
+[e ( _WriteToEEPROM (2 , -> | -> _sensorEEADR `i -> 1 `i `uc -> -> 1 `i `uc ]
+"464
+[; ;SensorBoard_PCB.c: 464:         if(I2C2TransmitAddress(sensorEEADR) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitAddress (1 _sensorEEADR `i -> 0 `i 1536  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1536 ]
+"465
+[; ;SensorBoard_PCB.c: 465:         if(I2C2TransmitData(0x20) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> -> 32 `i `uc `i -> 0 `i 1537  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1537 ]
+"466
+[; ;SensorBoard_PCB.c: 466:         if(I2C2TransmitData(0x01) == 0x00) {return 0x00;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> -> 1 `i `uc `i -> 0 `i 1538  ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1538 ]
+"467
+[; ;SensorBoard_PCB.c: 467:         I2C2Stop();
+[e ( _I2C2Stop ..  ]
+"468
+[; ;SensorBoard_PCB.c: 468:     }
+}
+[e $U 1539  ]
+"469
+[; ;SensorBoard_PCB.c: 469:     else if (ID[0] == 'I' && ID[1] == 'N' && ID[2] == 'F')
+[e :U 1535 ]
+[e $ ! && && == -> *U + &U _ID * -> -> -> 0 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 73 `ui == -> *U + &U _ID * -> -> -> 1 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 78 `ui == -> *U + &U _ID * -> -> -> 2 `i `ui `ux -> -> # *U &U _ID `ui `ux `ui -> 70 `ui 1540  ]
+"470
+[; ;SensorBoard_PCB.c: 470:     {
+{
+"472
+[; ;SensorBoard_PCB.c: 472:         WriteToEEPROM(sensorEEADR, 'I');
+[e ( _WriteToEEPROM (2 , _sensorEEADR -> -> 73 `ui `uc ]
+"473
+[; ;SensorBoard_PCB.c: 473:         WriteToEEPROM(sensorEEADR | 0x01, ID[3]);
+[e ( _WriteToEEPROM (2 , -> | -> _sensorEEADR `i -> 1 `i `uc *U + &U _ID * -> -> -> 3 `i `ui `ux -> -> # *U &U _ID `ui `ux ]
+"474
+[; ;SensorBoard_PCB.c: 474:     }
+}
+[e $U 1541  ]
+"475
+[; ;SensorBoard_PCB.c: 475:     else {return 0x00;}
+[e :U 1540 ]
+{
+[e ) -> -> 0 `i `uc ]
+[e $UE 1521  ]
+}
+[e :U 1541 ]
+[e :U 1539 ]
+"477
+[; ;SensorBoard_PCB.c: 477:     return 0xFF;
+[e ) -> -> 255 `i `uc ]
+[e $UE 1521  ]
+"478
+[; ;SensorBoard_PCB.c: 478: }
+[e :UE 1521 ]
+}
+"480
+[; ;SensorBoard_PCB.c: 480: void HandleTMR2(void)
+[v _HandleTMR2 `(v ~T0 @X0 1 ef ]
+"481
+[; ;SensorBoard_PCB.c: 481: {
+{
+[e :U _HandleTMR2 ]
+[f ]
+"483
+[; ;SensorBoard_PCB.c: 483:     if(T2Delay != 150) {T2Delay++;} else
+[e $ ! != -> _T2Delay `i -> 150 `i 1543  ]
+{
+[e ++ _T2Delay -> -> 1 `i `uc ]
+}
+[e $U 1544  ]
+[e :U 1543 ]
+"484
+[; ;SensorBoard_PCB.c: 484:     {
+{
+"485
+[; ;SensorBoard_PCB.c: 485:         T2Count++;
+[e ++ _T2Count -> -> 1 `i `uc ]
+"486
+[; ;SensorBoard_PCB.c: 486:         if(T2Count == 6)
+[e $ ! == -> _T2Count `i -> 6 `i 1545  ]
+"487
+[; ;SensorBoard_PCB.c: 487:         {
+{
+"488
+[; ;SensorBoard_PCB.c: 488:             T2Count = 0;
+[e = _T2Count -> -> 0 `i `uc ]
+"489
+[; ;SensorBoard_PCB.c: 489:             LATA = LATA << 1;
+[e = _LATA -> << -> _LATA `i -> 1 `i `uc ]
+"490
+[; ;SensorBoard_PCB.c: 490:             if(LATA == 0) {LATA = 1;}
+[e $ ! == -> _LATA `i -> 0 `i 1546  ]
+{
+[e = _LATA -> -> 1 `i `uc ]
+}
+[e :U 1546 ]
+"491
+[; ;SensorBoard_PCB.c: 491:         }
+}
+[e :U 1545 ]
+"492
+[; ;SensorBoard_PCB.c: 492:     }
+}
+[e :U 1544 ]
+"493
+[; ;SensorBoard_PCB.c: 493: }
+[e :UE 1542 ]
+}
+"495
+[; ;SensorBoard_PCB.c: 495: void HandleTMR4(void)
+[v _HandleTMR4 `(v ~T0 @X0 1 ef ]
+"496
+[; ;SensorBoard_PCB.c: 496: {
+{
+[e :U _HandleTMR4 ]
+[f ]
+"497
+[; ;SensorBoard_PCB.c: 497:     pFlag &= 0b01111111;
+[e =& _pFlag -> -> 127 `i `uc ]
+"498
+[; ;SensorBoard_PCB.c: 498: }
+[e :UE 1547 ]
+}
+"500
+[; ;SensorBoard_PCB.c: 500: void HandleIOC(void)
+[v _HandleIOC `(v ~T0 @X0 1 ef ]
+"501
+[; ;SensorBoard_PCB.c: 501: {
+{
+[e :U _HandleIOC ]
+[f ]
+"502
+[; ;SensorBoard_PCB.c: 502:     if(PORTC & 0b00100000) {pFlag |= 0b00010000; T2Delay = 0;}
+[e $ ! != & -> _PORTC `i -> 32 `i -> 0 `i 1549  ]
+{
+[e =| _pFlag -> -> 16 `i `uc ]
+[e = _T2Delay -> -> 0 `i `uc ]
+}
+[e :U 1549 ]
+"503
+[; ;SensorBoard_PCB.c: 503:     if(PORTC & 0b00010000) {pFlag |= 0b00001000; T2Delay = 0;}
+[e $ ! != & -> _PORTC `i -> 16 `i -> 0 `i 1550  ]
+{
+[e =| _pFlag -> -> 8 `i `uc ]
+[e = _T2Delay -> -> 0 `i `uc ]
+}
+[e :U 1550 ]
+"504
+[; ;SensorBoard_PCB.c: 504: }
+[e :UE 1548 ]
+}
+"506
+[; ;SensorBoard_PCB.c: 506: void SearchProcess(void)
+[v _SearchProcess `(v ~T0 @X0 1 ef ]
+"507
+[; ;SensorBoard_PCB.c: 507: {
+{
+[e :U _SearchProcess ]
+[f ]
+"508
+[; ;SensorBoard_PCB.c: 508:     for(;;)
+{
+[e :U 1552 ]
+"509
+[; ;SensorBoard_PCB.c: 509:     {
+{
+"510
+[; ;SensorBoard_PCB.c: 510:         if(I2C2Scan() == 0x00) {LATA = 0xEE; break;}
+[e $ ! == -> ( _I2C2Scan ..  `i -> 0 `i 1555  ]
+{
+[e = _LATA -> -> 238 `i `uc ]
+[e $U 1553  ]
+}
+[e :U 1555 ]
+"511
+[; ;SensorBoard_PCB.c: 511:         if(SaveSensor() == 0x00) {LATA = 0xFF; break;} else {LATA = sensorEEADR;}
+[e $ ! == -> ( _SaveSensor ..  `i -> 0 `i 1556  ]
+{
+[e = _LATA -> -> 255 `i `uc ]
+[e $U 1553  ]
+}
+[e $U 1557  ]
+[e :U 1556 ]
+{
+[e = _LATA -> _sensorEEADR `uc ]
+}
+[e :U 1557 ]
+"512
+[; ;SensorBoard_PCB.c: 512:         break;
+[e $U 1553  ]
+"513
+[; ;SensorBoard_PCB.c: 513:     }
+}
+[e $U 1552  ]
+[e :U 1553 ]
+}
+"514
+[; ;SensorBoard_PCB.c: 514: }
+[e :UE 1551 ]
+}
+"516
+[; ;SensorBoard_PCB.c: 516: void EraseSensors(void)
+[v _EraseSensors `(v ~T0 @X0 1 ef ]
+"517
+[; ;SensorBoard_PCB.c: 517: {
+{
+[e :U _EraseSensors ]
+[f ]
+"518
+[; ;SensorBoard_PCB.c: 518:     char i;
+[v _i `uc ~T0 @X0 1 a ]
+"519
+[; ;SensorBoard_PCB.c: 519:     LATA = 0x0F;
+[e = _LATA -> -> 15 `i `uc ]
+"520
+[; ;SensorBoard_PCB.c: 520:     for (i = 0x10; i != 0x22 ; i++)
+{
+[e = _i -> -> 16 `i `uc ]
+[e $ != -> _i `i -> 34 `i 1559  ]
+[e $U 1560  ]
+[e :U 1559 ]
+"521
+[; ;SensorBoard_PCB.c: 521:     {
+{
+"522
+[; ;SensorBoard_PCB.c: 522:         WriteToEEPROM(i, 0x00);
+[e ( _WriteToEEPROM (2 , _i -> -> 0 `i `uc ]
+"523
+[; ;SensorBoard_PCB.c: 523:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ != -> _i `i -> 34 `i 1559  ]
+[e :U 1560 ]
+}
+"524
+[; ;SensorBoard_PCB.c: 524: }
+[e :UE 1558 ]
+}
+"526
+[; ;SensorBoard_PCB.c: 526: void RequestSensorData (void)
+[v _RequestSensorData `(v ~T0 @X0 1 ef ]
+"527
+[; ;SensorBoard_PCB.c: 527: {
+{
+[e :U _RequestSensorData ]
+[f ]
+"528
+[; ;SensorBoard_PCB.c: 528:     char lastSensor = 0;
+[v _lastSensor `uc ~T0 @X0 1 a ]
+[e = _lastSensor -> -> 0 `i `uc ]
+"530
+[; ;SensorBoard_PCB.c: 530:     char i, i2;
+[v _i `uc ~T0 @X0 1 a ]
+[v _i2 `uc ~T0 @X0 1 a ]
+"531
+[; ;SensorBoard_PCB.c: 531:     char byteCount = 0;
+[v _byteCount `uc ~T0 @X0 1 a ]
+[e = _byteCount -> -> 0 `i `uc ]
+"533
+[; ;SensorBoard_PCB.c: 533:     char sensorID;
+[v _sensorID `uc ~T0 @X0 1 a ]
+"534
+[; ;SensorBoard_PCB.c: 534:     char distanceBytes;
+[v _distanceBytes `uc ~T0 @X0 1 a ]
+"537
+[; ;SensorBoard_PCB.c: 537:     for(i = 0x10; i <= 0x1E; i+=2)
+{
+[e = _i -> -> 16 `i `uc ]
+[e $ <= -> _i `i -> 30 `i 1563  ]
+[e $U 1564  ]
+[e :U 1563 ]
+"538
+[; ;SensorBoard_PCB.c: 538:     {
+{
+"539
+[; ;SensorBoard_PCB.c: 539:         if(ReadEEPROM(i) != 0) {lastSensor = i;}
+[e $ ! != -> ( _ReadEEPROM (1 _i `i -> 0 `i 1566  ]
+{
+[e = _lastSensor _i ]
+}
+[e :U 1566 ]
+"540
+[; ;SensorBoard_PCB.c: 540:     }
+}
+[e =+ _i -> -> 2 `i `uc ]
+[e $ <= -> _i `i -> 30 `i 1563  ]
+[e :U 1564 ]
+}
+"542
+[; ;SensorBoard_PCB.c: 542:     for(i = 0x10; i <= lastSensor; i+=2)
+{
+[e = _i -> -> 16 `i `uc ]
+[e $U 1570  ]
+[e :U 1567 ]
+"543
+[; ;SensorBoard_PCB.c: 543:     {
+{
+"544
+[; ;SensorBoard_PCB.c: 544:         sensorID = ReadEEPROM(i);
+[e = _sensorID ( _ReadEEPROM (1 _i ]
+"545
+[; ;SensorBoard_PCB.c: 545:         distanceBytes = ReadEEPROM(i | 0x01);
+[e = _distanceBytes ( _ReadEEPROM (1 -> | -> _i `i -> 1 `i `uc ]
+"547
+[; ;SensorBoard_PCB.c: 547:         if(I2C2TransmitAddress(i) == 0x00) {break;}
+[e $ ! == -> ( _I2C2TransmitAddress (1 _i `i -> 0 `i 1571  ]
+{
+[e $U 1568  ]
+}
+[e :U 1571 ]
+"548
+[; ;SensorBoard_PCB.c: 548:         if(I2C2TransmitData(0x00) == 0x00) {break;}
+[e $ ! == -> ( _I2C2TransmitData (1 -> -> 0 `i `uc `i -> 0 `i 1572  ]
+{
+[e $U 1568  ]
+}
+[e :U 1572 ]
+"549
+[; ;SensorBoard_PCB.c: 549:         I2C2Stop();
+[e ( _I2C2Stop ..  ]
+"551
+[; ;SensorBoard_PCB.c: 551:         if(I2C2RequestData(1, i | 0x01) == 0x00) {break;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 1 `i `uc -> | -> _i `i -> 1 `i `uc `i -> 0 `i 1573  ]
+{
+[e $U 1568  ]
+}
+[e :U 1573 ]
+"552
+[; ;SensorBoard_PCB.c: 552:         distData[0] = I2C2Data;
+[e = *U + &U _distData * -> -> -> 0 `i `ui `ux -> -> # *U &U _distData `ui `ux _I2C2Data ]
+"553
+[; ;SensorBoard_PCB.c: 553:         if(I2C2RequestData(2, 0x00) == 0x00) {break;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 2 `i `uc -> -> 0 `i `uc `i -> 0 `i 1574  ]
+{
+[e $U 1568  ]
+}
+[e :U 1574 ]
+"554
+[; ;SensorBoard_PCB.c: 554:         distData[1] = I2C2Data;
+[e = *U + &U _distData * -> -> -> 1 `i `ui `ux -> -> # *U &U _distData `ui `ux _I2C2Data ]
+"555
+[; ;SensorBoard_PCB.c: 555:         if(I2C2RequestData(3, 0x00) == 0x00) {break;}
+[e $ ! == -> ( _I2C2RequestData (2 , -> -> 3 `i `uc -> -> 0 `i `uc `i -> 0 `i 1575  ]
+{
+[e $U 1568  ]
+}
+[e :U 1575 ]
+"556
+[; ;SensorBoard_PCB.c: 556:         distData[2] = I2C2Data;
+[e = *U + &U _distData * -> -> -> 2 `i `ui `ux -> -> # *U &U _distData `ui `ux _I2C2Data ]
+"558
+[; ;SensorBoard_PCB.c: 558:         if(sensorID == 'L') {if(distData[1] != 0) {distData[0] = 0xFF;}}
+[e $ ! == -> _sensorID `ui -> 76 `ui 1576  ]
+{
+[e $ ! != -> *U + &U _distData * -> -> -> 1 `i `ui `ux -> -> # *U &U _distData `ui `ux `i -> 0 `i 1577  ]
+{
+[e = *U + &U _distData * -> -> -> 0 `i `ui `ux -> -> # *U &U _distData `ui `ux -> -> 255 `i `uc ]
+}
+[e :U 1577 ]
+}
+[e :U 1576 ]
+"560
+[; ;SensorBoard_PCB.c: 560:         for(i2 = 0; i2 <= (distanceBytes - 1); i2++)
+{
+[e = _i2 -> -> 0 `i `uc ]
+[e $U 1581  ]
+[e :U 1578 ]
+"561
+[; ;SensorBoard_PCB.c: 561:         {
+{
+"562
+[; ;SensorBoard_PCB.c: 562:             byteCount++;
+[e ++ _byteCount -> -> 1 `i `uc ]
+"563
+[; ;SensorBoard_PCB.c: 563:             I2C1Registers[byteCount] = distData[i2];
+[e = *U + &U _I2C1Registers * -> _byteCount `ux -> -> # *U &U _I2C1Registers `ui `ux *U + &U _distData * -> _i2 `ux -> -> # *U &U _distData `ui `ux ]
+"564
+[; ;SensorBoard_PCB.c: 564:         }
+}
+[e ++ _i2 -> -> 1 `i `uc ]
+[e :U 1581 ]
+[e $ <= -> _i2 `i - -> _distanceBytes `i -> 1 `i 1578  ]
+[e :U 1579 ]
+}
+"565
+[; ;SensorBoard_PCB.c: 565:     }
+}
+[e =+ _i -> -> 2 `i `uc ]
+[e :U 1570 ]
+[e $ <= -> _i `i -> _lastSensor `i 1567  ]
+[e :U 1568 ]
+}
+"566
+[; ;SensorBoard_PCB.c: 566:     I2C1Registers[0] = byteCount;
+[e = *U + &U _I2C1Registers * -> -> -> 0 `i `ui `ux -> -> # *U &U _I2C1Registers `ui `ux _byteCount ]
+"567
+[; ;SensorBoard_PCB.c: 567: }
+[e :UE 1562 ]
+}
+"569
+[; ;SensorBoard_PCB.c: 569: void StartStatus()
+[v _StartStatus `(v ~T0 @X0 1 ef ]
+"570
+[; ;SensorBoard_PCB.c: 570: {
+{
+[e :U _StartStatus ]
+[f ]
+"572
+[; ;SensorBoard_PCB.c: 572:     if(PORTC & 0b01000000)
+[e $ ! != & -> _PORTC `i -> 64 `i -> 0 `i 1583  ]
+"573
+[; ;SensorBoard_PCB.c: 573:     {
+{
+"576
+[; ;SensorBoard_PCB.c: 576:         SSP2Config();
+[e ( _SSP2Config ..  ]
+"577
+[; ;SensorBoard_PCB.c: 577:         TMR2Config();
+[e ( _TMR2Config ..  ]
+"578
+[; ;SensorBoard_PCB.c: 578:         IOCConfig();
+[e ( _IOCConfig ..  ]
+"579
+[; ;SensorBoard_PCB.c: 579:     }
+}
+[e $U 1584  ]
+"580
+[; ;SensorBoard_PCB.c: 580:     else
+[e :U 1583 ]
+"581
+[; ;SensorBoard_PCB.c: 581:     {
+{
+"584
+[; ;SensorBoard_PCB.c: 584:         SSP1Config();
+[e ( _SSP1Config ..  ]
+"585
+[; ;SensorBoard_PCB.c: 585:         SSP2Config();
+[e ( _SSP2Config ..  ]
+"586
+[; ;SensorBoard_PCB.c: 586:     }
+}
+[e :U 1584 ]
+"588
+[; ;SensorBoard_PCB.c: 588:     char ptr = 0;
+[v _ptr `uc ~T0 @X0 1 a ]
+[e = _ptr -> -> 0 `i `uc ]
+"589
+[; ;SensorBoard_PCB.c: 589:     for(ptr = 0; ptr != 29; ptr++)
+{
+[e = _ptr -> -> 0 `i `uc ]
+[e $ != -> _ptr `i -> 29 `i 1585  ]
+[e $U 1586  ]
+[e :U 1585 ]
+"590
+[; ;SensorBoard_PCB.c: 590:     {
+{
+"591
+[; ;SensorBoard_PCB.c: 591:         I2C1Registers[ptr] = ptr;
+[e = *U + &U _I2C1Registers * -> _ptr `ux -> -> # *U &U _I2C1Registers `ui `ux _ptr ]
+"592
+[; ;SensorBoard_PCB.c: 592:     }
+}
+[e ++ _ptr -> -> 1 `i `uc ]
+[e $ != -> _ptr `i -> 29 `i 1585  ]
+[e :U 1586 ]
+}
+"593
+[; ;SensorBoard_PCB.c: 593:     I2C1Registers[25] = 'M';
+[e = *U + &U _I2C1Registers * -> -> -> 25 `i `ui `ux -> -> # *U &U _I2C1Registers `ui `ux -> -> 77 `ui `uc ]
+"594
+[; ;SensorBoard_PCB.c: 594:     I2C1Registers[26] = 'O';
+[e = *U + &U _I2C1Registers * -> -> -> 26 `i `ui `ux -> -> # *U &U _I2C1Registers `ui `ux -> -> 79 `ui `uc ]
+"595
+[; ;SensorBoard_PCB.c: 595:     I2C1Registers[27] = 'D';
+[e = *U + &U _I2C1Registers * -> -> -> 27 `i `ui `ux -> -> # *U &U _I2C1Registers `ui `ux -> -> 68 `ui `uc ]
+"596
+[; ;SensorBoard_PCB.c: 596:     I2C1Registers[28] = 'X';
+[e = *U + &U _I2C1Registers * -> -> -> 28 `i `ui `ux -> -> # *U &U _I2C1Registers `ui `ux -> -> 88 `ui `uc ]
+"597
+[; ;SensorBoard_PCB.c: 597: }
+[e :UE 1582 ]
+}
+"601
+[; ;SensorBoard_PCB.c: 601: void TMR2_ISR(void)
+[v _TMR2_ISR `(v ~T0 @X0 1 ef ]
+"602
+[; ;SensorBoard_PCB.c: 602: {
+{
+[e :U _TMR2_ISR ]
+[f ]
+"603
+[; ;SensorBoard_PCB.c: 603:     pFlag |= 0b01000000;
+[e =| _pFlag -> -> 64 `i `uc ]
+"604
+[; ;SensorBoard_PCB.c: 604:     PIR4bits.TMR2IF = 0;
+[e = . . _PIR4bits 0 1 -> -> 0 `i `uc ]
+"605
+[; ;SensorBoard_PCB.c: 605: }
+[e :UE 1588 ]
+}
+"607
+[; ;SensorBoard_PCB.c: 607: void TMR4_ISR(void)
+[v _TMR4_ISR `(v ~T0 @X0 1 ef ]
+"608
+[; ;SensorBoard_PCB.c: 608: {
+{
+[e :U _TMR4_ISR ]
+[f ]
+"609
+[; ;SensorBoard_PCB.c: 609:     pFlag |= 0b10000000;
+[e =| _pFlag -> -> 128 `i `uc ]
+"610
+[; ;SensorBoard_PCB.c: 610:     PIR4bits.TMR4IF = 0;
+[e = . . _PIR4bits 0 3 -> -> 0 `i `uc ]
+"611
+[; ;SensorBoard_PCB.c: 611: }
+[e :UE 1589 ]
+}
+"613
+[; ;SensorBoard_PCB.c: 613: void IOC_ISR(void)
+[v _IOC_ISR `(v ~T0 @X0 1 ef ]
+"614
+[; ;SensorBoard_PCB.c: 614: {
+{
+[e :U _IOC_ISR ]
+[f ]
+"615
+[; ;SensorBoard_PCB.c: 615:     pFlag |= 0b00100000;
+[e =| _pFlag -> -> 32 `i `uc ]
+"616
+[; ;SensorBoard_PCB.c: 616:     IOCCF &= 0x00;
+[e =& _IOCCF -> -> 0 `i `Vuc ]
+"617
+[; ;SensorBoard_PCB.c: 617:     PIR0bits.IOCIF = 0;
+[e = . . _PIR0bits 0 4 -> -> 0 `i `uc ]
+"618
+[; ;SensorBoard_PCB.c: 618: }
+[e :UE 1590 ]
+}
+"620
+[; ;SensorBoard_PCB.c: 620: void I2C1_ISR(void)
+[v _I2C1_ISR `(v ~T0 @X0 1 ef ]
+"621
+[; ;SensorBoard_PCB.c: 621: {
+{
+[e :U _I2C1_ISR ]
+[f ]
+"643
+[; ;SensorBoard_PCB.c: 643:     PIR3bits.SSP1IF = 0;
+[e = . . _PIR3bits 0 0 -> -> 0 `i `uc ]
+"644
+[; ;SensorBoard_PCB.c: 644:     SSP1CON1bits.SSPOV = 0;
+[e = . . _SSP1CON1bits 0 3 -> -> 0 `i `uc ]
+"647
+[; ;SensorBoard_PCB.c: 647:     switch (I2C1Status)
+[e $U 1593  ]
+"648
+[; ;SensorBoard_PCB.c: 648:     {
+{
+"649
+[; ;SensorBoard_PCB.c: 649:         case 0:
+[e :U 1594 ]
+"652
+[; ;SensorBoard_PCB.c: 652:             I2C1RxData = SSP1BUF;
+[e = _I2C1RxData -> _SSP1BUF `uc ]
+"654
+[; ;SensorBoard_PCB.c: 654:             if(SSP1STATbits.R_nW == 0) {I2C1Status = 1;} else {I2C1Status = 2;}
+[e $ ! == -> . . _SSP1STATbits 2 2 `i -> 0 `i 1595  ]
+{
+[e = _I2C1Status -> -> 1 `i `uc ]
+}
+[e $U 1596  ]
+[e :U 1595 ]
+{
+[e = _I2C1Status -> -> 2 `i `uc ]
+}
+[e :U 1596 ]
+"657
+[; ;SensorBoard_PCB.c: 657:             if(I2C1Status == 2)
+[e $ ! == -> _I2C1Status `i -> 2 `i 1597  ]
+"658
+[; ;SensorBoard_PCB.c: 658:             {
+{
+"659
+[; ;SensorBoard_PCB.c: 659:                 SSP1BUF = I2C1Registers[I2C1RegIndex];
+[e = _SSP1BUF -> *U + &U _I2C1Registers * -> _I2C1RegIndex `ux -> -> # *U &U _I2C1Registers `ui `ux `uc ]
+"660
+[; ;SensorBoard_PCB.c: 660:                 I2C1RegIndex++;
+[e ++ _I2C1RegIndex -> -> 1 `i `uc ]
+"661
+[; ;SensorBoard_PCB.c: 661:             }
+}
+[e :U 1597 ]
+"663
+[; ;SensorBoard_PCB.c: 663:             SSP1CON1bits.CKP = 1;
+[e = . . _SSP1CON1bits 0 1 -> -> 1 `i `uc ]
+"664
+[; ;SensorBoard_PCB.c: 664:             break;
+[e $U 1592  ]
+"666
+[; ;SensorBoard_PCB.c: 666:         case 1:
+[e :U 1598 ]
+"668
+[; ;SensorBoard_PCB.c: 668:             I2C1RxData = SSP1BUF;
+[e = _I2C1RxData -> _SSP1BUF `uc ]
+"669
+[; ;SensorBoard_PCB.c: 669:             I2C1RegIndex = I2C1RxData;
+[e = _I2C1RegIndex _I2C1RxData ]
+"670
+[; ;SensorBoard_PCB.c: 670:             SSP1CON1bits.CKP = 1;
+[e = . . _SSP1CON1bits 0 1 -> -> 1 `i `uc ]
+"671
+[; ;SensorBoard_PCB.c: 671:             I2C1Status = 0;
+[e = _I2C1Status -> -> 0 `i `uc ]
+"673
+[; ;SensorBoard_PCB.c: 673:             break;
+[e $U 1592  ]
+"675
+[; ;SensorBoard_PCB.c: 675:         case 2:
+[e :U 1599 ]
+"677
+[; ;SensorBoard_PCB.c: 677:             if(SSP1CON1bits.CKP == 1) {I2C1Status = 0; pFlag |= 0b00000100;} else
+[e $ ! == -> . . _SSP1CON1bits 0 1 `i -> 1 `i 1600  ]
+{
+[e = _I2C1Status -> -> 0 `i `uc ]
+[e =| _pFlag -> -> 4 `i `uc ]
+}
+[e $U 1601  ]
+[e :U 1600 ]
+"678
+[; ;SensorBoard_PCB.c: 678:             {
+{
+"679
+[; ;SensorBoard_PCB.c: 679:                 SSP1BUF = I2C1Registers[I2C1RegIndex];
+[e = _SSP1BUF -> *U + &U _I2C1Registers * -> _I2C1RegIndex `ux -> -> # *U &U _I2C1Registers `ui `ux `uc ]
+"680
+[; ;SensorBoard_PCB.c: 680:                 I2C1RegIndex++;
+[e ++ _I2C1RegIndex -> -> 1 `i `uc ]
+"681
+[; ;SensorBoard_PCB.c: 681:                 SSP1CON1bits.CKP = 1;
+[e = . . _SSP1CON1bits 0 1 -> -> 1 `i `uc ]
+"682
+[; ;SensorBoard_PCB.c: 682:             }
+}
+[e :U 1601 ]
+"683
+[; ;SensorBoard_PCB.c: 683:             break;
+[e $U 1592  ]
+"685
+[; ;SensorBoard_PCB.c: 685:         default:
+[e :U 1602 ]
+"686
+[; ;SensorBoard_PCB.c: 686:             break;
+[e $U 1592  ]
+"687
+[; ;SensorBoard_PCB.c: 687:     }
+}
+[e $U 1592  ]
+[e :U 1593 ]
+[e [\ -> _I2C1Status `i , $ -> 0 `i 1594
+ , $ -> 1 `i 1598
+ , $ -> 2 `i 1599
+ 1602 ]
+[e :U 1592 ]
+"688
+[; ;SensorBoard_PCB.c: 688: }
+[e :UE 1591 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"690
+[; ;SensorBoard_PCB.c: 690: void __attribute__((picinterrupt(("")))) ISR(void)
+[v _ISR `(v ~T1 @X0 1 ef ]
+"691
+[; ;SensorBoard_PCB.c: 691: {
+{
+[e :U _ISR ]
+[f ]
+"692
+[; ;SensorBoard_PCB.c: 692:     if (PIR4bits.TMR4IF == 1) {TMR4_ISR();}
+[e $ ! == -> . . _PIR4bits 0 3 `i -> 1 `i 1604  ]
+{
+[e ( _TMR4_ISR ..  ]
+}
+[e :U 1604 ]
+"693
+[; ;SensorBoard_PCB.c: 693:     if (PIR4bits.TMR2IF == 1) {TMR2_ISR();}
+[e $ ! == -> . . _PIR4bits 0 1 `i -> 1 `i 1605  ]
+{
+[e ( _TMR2_ISR ..  ]
+}
+[e :U 1605 ]
+"695
+[; ;SensorBoard_PCB.c: 695:     if (PIR0bits.IOCIF == 1) {IOC_ISR();}
+[e $ ! == -> . . _PIR0bits 0 4 `i -> 1 `i 1606  ]
+{
+[e ( _IOC_ISR ..  ]
+}
+[e :U 1606 ]
+"696
+[; ;SensorBoard_PCB.c: 696:     if (PIR3bits.SSP1IF == 1) {I2C1_ISR();}
+[e $ ! == -> . . _PIR3bits 0 0 `i -> 1 `i 1607  ]
+{
+[e ( _I2C1_ISR ..  ]
+}
+[e :U 1607 ]
+"697
+[; ;SensorBoard_PCB.c: 697: }
+[e :UE 1603 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"701
+[; ;SensorBoard_PCB.c: 701: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"702
+[; ;SensorBoard_PCB.c: 702: {
+{
+[e :U _main ]
+[f ]
+"703
+[; ;SensorBoard_PCB.c: 703:     PortsConfig();
+[e ( _PortsConfig ..  ]
+"704
+[; ;SensorBoard_PCB.c: 704:     NVMConfig();
+[e ( _NVMConfig ..  ]
+"706
+[; ;SensorBoard_PCB.c: 706:     StartStatus();
+[e ( _StartStatus ..  ]
+"708
+[; ;SensorBoard_PCB.c: 708:     IntConfig();
+[e ( _IntConfig ..  ]
+"710
+[; ;SensorBoard_PCB.c: 710:     while(1)
+[e :U 1610 ]
+"711
+[; ;SensorBoard_PCB.c: 711:     {
+{
+"714
+[; ;SensorBoard_PCB.c: 714:         if(pFlag & 0b10000000) {HandleTMR4(); pFlag &= 0b01111111;}
+[e $ ! != & -> _pFlag `i -> 128 `i -> 0 `i 1612  ]
+{
+[e ( _HandleTMR4 ..  ]
+[e =& _pFlag -> -> 127 `i `uc ]
+}
+[e :U 1612 ]
+"715
+[; ;SensorBoard_PCB.c: 715:         if(pFlag & 0b01000000) {HandleTMR2(); pFlag &= 0b10111111;}
+[e $ ! != & -> _pFlag `i -> 64 `i -> 0 `i 1613  ]
+{
+[e ( _HandleTMR2 ..  ]
+[e =& _pFlag -> -> 191 `i `uc ]
+}
+[e :U 1613 ]
+"716
+[; ;SensorBoard_PCB.c: 716:         if(pFlag & 0b00100000) {HandleIOC(); pFlag &= 0b11011111;}
+[e $ ! != & -> _pFlag `i -> 32 `i -> 0 `i 1614  ]
+{
+[e ( _HandleIOC ..  ]
+[e =& _pFlag -> -> 223 `i `uc ]
+}
+[e :U 1614 ]
+"718
+[; ;SensorBoard_PCB.c: 718:         if(pFlag & 0b00010000) {SearchProcess(); pFlag &= 0b11101111;}
+[e $ ! != & -> _pFlag `i -> 16 `i -> 0 `i 1615  ]
+{
+[e ( _SearchProcess ..  ]
+[e =& _pFlag -> -> 239 `i `uc ]
+}
+[e :U 1615 ]
+"719
+[; ;SensorBoard_PCB.c: 719:         if(pFlag & 0b00001000) {EraseSensors(); pFlag &= 0b11110111;}
+[e $ ! != & -> _pFlag `i -> 8 `i -> 0 `i 1616  ]
+{
+[e ( _EraseSensors ..  ]
+[e =& _pFlag -> -> 247 `i `uc ]
+}
+[e :U 1616 ]
+"720
+[; ;SensorBoard_PCB.c: 720:         if(pFlag & 0b00000100) {RequestSensorData(); pFlag &= 0b11111011;}
+[e $ ! != & -> _pFlag `i -> 4 `i -> 0 `i 1617  ]
+{
+[e ( _RequestSensorData ..  ]
+[e =& _pFlag -> -> 251 `i `uc ]
+}
+[e :U 1617 ]
+"722
+[; ;SensorBoard_PCB.c: 722:         LATA = SSP1ADD;
+[e = _LATA _SSP1ADD ]
+"723
+[; ;SensorBoard_PCB.c: 723:     }
+}
+[e :U 1609 ]
+[e $U 1610  ]
+[e :U 1611 ]
+"724
+[; ;SensorBoard_PCB.c: 724: }
+[e :UE 1608 ]
+}

@@ -1,0 +1,191 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Apr 20 13:02:36 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x00087c
+.config_300000_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300003    program   0x000001
+.config_300004_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300004    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300006    program   0x000001
+.config_300007_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300007    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x300008    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/SENSORB    romdata   0x30000b    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000883      
+                            0x300000    0x300008      
+                            0x30000a    0x30000b      
+            2189 out of 66590 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CASE0   0x0002be    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    CASE1   0x0002d6    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    CASE2   0x0002ea    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              CASEDEFAULT   0x0002fe    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  CASEEND   0x000302    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   CHECK1   0x00056c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   CHECK2   0x000578    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             CLEARREGLOOP   0x00004a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           DETECTCONTINUE   0x0005fa    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               EESCANLOOP   0x000466    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                ERASELOOP   0x000604    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             ERASESENSORS   0x0005fc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              I2C1ENDREAD   0x000304    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  I2C1ISR   0x00029a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2FAIL   0x000374    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+         I2C2REQUESTFIRST   0x0003ca    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+          I2C2REQUESTLAST   0x000416    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           I2C2REQUESTMID   0x0003f6    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2SCAN   0x000436    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2STOP   0x000380    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            I2C2TXADDRESS   0x00038c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               I2C2TXDATA   0x0003b0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                INFDETECT   0x0005d0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           INFRVALPROCESS   0x000790    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE1   0x0007ac    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE2   0x0007cc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE3   0x0007ec    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                INTERRUPT   0x000238    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           INTERRUPTSETUP   0x00021a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                IOCHANDLE   0x00083e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               IOCPROCESS   0x00028c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 IOCSETUP   0x000200    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           LASTSENSORLOOP   0x00065e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               LUNADETECT   0x00057a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               LUNAVALCAP   0x000780    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           LUNAVALPROCESS   0x00074a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                MAINBEGIN   0x000856    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              PROGRAMMODE   0x000100    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             READDATALOOP   0x000680    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               READEEPROM   0x00035a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+        REQUESTSENSORDATA   0x000652    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 SAVEFAIL   0x000836    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               SAVESENSOR   0x000460    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 SCANLOOP   0x00043c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               SEARCHFAIL   0x00082e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            SEARCHPROCESS   0x00080c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    SETUP   0x00000c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             SLAVESENDDAT   0x00030e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                SSP1SETUP   0x00019c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                SSP2SETUP   0x0001de    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             STANDARDMODE   0x000118    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 STOREEND   0x00072e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  T2SHIFT   0x000642    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   T2TICK   0x000636    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   T4TICK   0x000282    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TIMER2SETUP   0x000128    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TIMER4SETUP   0x000162    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               TMR2HANDLE   0x000624    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TMR2PROCESS   0x00026a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TMR4PROCESS   0x000272    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            WRITETOEEPROM   0x00032a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0352   0x000352    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_037A   0x00037a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0386   0x000386    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0392   0x000392    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03A2   0x0003a2    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03BC   0x0003bc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03DC   0x0003dc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03F0   0x0003f0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03FC   0x0003fc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0410   0x000410    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_041C   0x00041c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0430   0x000430    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    SETUP   0x00000c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             CLEARREGLOOP   0x00004a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              PROGRAMMODE   0x000100    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             STANDARDMODE   0x000118    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TIMER2SETUP   0x000128    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TIMER4SETUP   0x000162    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                SSP1SETUP   0x00019c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                SSP2SETUP   0x0001de    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 IOCSETUP   0x000200    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           INTERRUPTSETUP   0x00021a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                INTERRUPT   0x000238    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TMR2PROCESS   0x00026a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              TMR4PROCESS   0x000272    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   T4TICK   0x000282    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               IOCPROCESS   0x00028c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  I2C1ISR   0x00029a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    CASE0   0x0002be    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    CASE1   0x0002d6    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                    CASE2   0x0002ea    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              CASEDEFAULT   0x0002fe    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  CASEEND   0x000302    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+              I2C1ENDREAD   0x000304    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             SLAVESENDDAT   0x00030e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            WRITETOEEPROM   0x00032a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0352   0x000352    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               READEEPROM   0x00035a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2FAIL   0x000374    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_037A   0x00037a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2STOP   0x000380    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0386   0x000386    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            I2C2TXADDRESS   0x00038c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0392   0x000392    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03A2   0x0003a2    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               I2C2TXDATA   0x0003b0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03BC   0x0003bc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+         I2C2REQUESTFIRST   0x0003ca    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03DC   0x0003dc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03F0   0x0003f0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           I2C2REQUESTMID   0x0003f6    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_03FC   0x0003fc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0410   0x000410    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+          I2C2REQUESTLAST   0x000416    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_041C   0x00041c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             _.org_1_0430   0x000430    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 I2C2SCAN   0x000436    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 SCANLOOP   0x00043c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               SAVESENSOR   0x000460    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               EESCANLOOP   0x000466    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   CHECK1   0x00056c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   CHECK2   0x000578    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               LUNADETECT   0x00057a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                INFDETECT   0x0005d0    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           DETECTCONTINUE   0x0005fa    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             ERASESENSORS   0x0005fc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                ERASELOOP   0x000604    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               TMR2HANDLE   0x000624    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                   T2TICK   0x000636    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                  T2SHIFT   0x000642    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+        REQUESTSENSORDATA   0x000652    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           LASTSENSORLOOP   0x00065e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+             READDATALOOP   0x000680    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 STOREEND   0x00072e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           LUNAVALPROCESS   0x00074a    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               LUNAVALCAP   0x000780    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+           INFRVALPROCESS   0x000790    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE1   0x0007ac    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE2   0x0007cc    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            INFRVALSTORE3   0x0007ec    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+            SEARCHPROCESS   0x00080c    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+               SEARCHFAIL   0x00082e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                 SAVEFAIL   0x000836    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                IOCHANDLE   0x00083e    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+                MAINBEGIN   0x000856    program     static C:\Users\Taylo\MPLABXProjects\SensorBoardAssembly_PCB.X\SensorBoardAssembly_PCB.asm
+
+
